@@ -1,0 +1,15 @@
+{
+  "name": "rws-l3d",
+  "version": "1.0.0",
+  "description": "Linked Data conversion script for Rijkswaterstaat data",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha -- --recursive -R spec test"
+  },
+  "author": "Rein van t Veer",
+  "license": "ISC",
+  "dependencies": {
+    "csv": "^1.1.0",
+    "jsonld": "^0.4.11"
+  }
+}
