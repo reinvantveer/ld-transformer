@@ -34,6 +34,7 @@
 <http://rws.org/disk/id/50585> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/50585> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/50585> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/50585> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/50585> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/50594> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/50594> <dct:identifier> "4978" .
@@ -71,6 +72,7 @@
 <http://rws.org/disk/id/50594> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/50594> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/50594> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/50594> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/50594> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/50596> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/50596> <dct:identifier> "4978" .
@@ -108,6 +110,7 @@
 <http://rws.org/disk/id/50596> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/50596> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/50596> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/50596> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/50596> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/50597> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/50597> <dct:identifier> "4978" .
@@ -145,6 +148,7 @@
 <http://rws.org/disk/id/50597> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/50597> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/50597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/50597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/50597> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/50598> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/50598> <dct:identifier> "4978" .
@@ -182,6 +186,7 @@
 <http://rws.org/disk/id/50598> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/50598> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/50598> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/50598> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/50598> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/217942> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/217942> <dct:identifier> "4978" .
@@ -219,6 +224,7 @@
 <http://rws.org/disk/id/217942> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/217942> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/217942> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/217942> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/217942> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/50582> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/50582> <dct:identifier> "4978" .
@@ -256,6 +262,7 @@
 <http://rws.org/disk/id/50582> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/50582> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/50582> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/50582> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/50582> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/50583> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/50583> <dct:identifier> "4978" .
@@ -293,6 +300,7 @@
 <http://rws.org/disk/id/50583> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/50583> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/50583> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/50583> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/50583> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/50573> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/50573> <dct:identifier> "4978" .
@@ -330,6 +338,7 @@
 <http://rws.org/disk/id/50573> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/50573> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/50573> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/50573> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/50573> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/217753> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/217753> <dct:identifier> "4978" .
@@ -367,6 +376,7 @@
 <http://rws.org/disk/id/217753> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/217753> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/217753> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/217753> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/217753> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/217754> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/217754> <dct:identifier> "4978" .
@@ -404,6 +414,7 @@
 <http://rws.org/disk/id/217754> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/217754> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/217754> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/217754> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/217754> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/217760> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/217760> <dct:identifier> "4978" .
@@ -441,6 +452,7 @@
 <http://rws.org/disk/id/217760> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/217760> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/217760> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/217760> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/217760> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/250523> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/250523> <dct:identifier> "4978" .
@@ -478,6 +490,7 @@
 <http://rws.org/disk/id/250523> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/250523> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/250523> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/250523> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/250523> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/250490> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/250490> <dct:identifier> "4978" .
@@ -515,6 +528,7 @@
 <http://rws.org/disk/id/250490> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/250490> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/250490> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/250490> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/250490> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/221307> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/221307> <dct:identifier> "4978" .
@@ -552,6 +566,7 @@
 <http://rws.org/disk/id/221307> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/221307> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/221307> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/221307> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/221307> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/50584> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/50584> <dct:identifier> "4978" .
@@ -589,6 +604,7 @@
 <http://rws.org/disk/id/50584> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/50584> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/50584> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/50584> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/50584> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/104667> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/104667> <dct:identifier> "4978" .
@@ -626,6 +642,7 @@
 <http://rws.org/disk/id/104667> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/104667> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/104667> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/104667> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/104667> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/217933> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/217933> <dct:identifier> "4978" .
@@ -664,6 +681,7 @@
 <http://rws.org/disk/id/217933> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/217933> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/217933> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/217933> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/217933> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/217934> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/217934> <dct:identifier> "4978" .
@@ -702,6 +720,7 @@
 <http://rws.org/disk/id/217934> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/217934> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/217934> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/217934> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/217934> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/217935> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/217935> <dct:identifier> "4978" .
@@ -740,6 +759,7 @@
 <http://rws.org/disk/id/217935> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/217935> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/217935> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/217935> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/217935> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/217936> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/217936> <dct:identifier> "4978" .
@@ -778,6 +798,7 @@
 <http://rws.org/disk/id/217936> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/217936> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/217936> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/217936> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/217936> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/217937> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/217937> <dct:identifier> "4978" .
@@ -816,6 +837,7 @@
 <http://rws.org/disk/id/217937> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/217937> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/217937> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/217937> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/217937> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/217938> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/217938> <dct:identifier> "4978" .
@@ -854,6 +876,7 @@
 <http://rws.org/disk/id/217938> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/217938> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/217938> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/217938> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/217938> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/217939> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/217939> <dct:identifier> "4978" .
@@ -892,6 +915,7 @@
 <http://rws.org/disk/id/217939> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/217939> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/217939> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/217939> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/217939> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/217940> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/217940> <dct:identifier> "4978" .
@@ -930,6 +954,7 @@
 <http://rws.org/disk/id/217940> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/217940> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/217940> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/217940> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/217940> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/217941> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/217941> <dct:identifier> "4978" .
@@ -968,6 +993,7 @@
 <http://rws.org/disk/id/217941> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/217941> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/217941> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/217941> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/217941> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/217758> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/217758> <dct:identifier> "4978" .
@@ -1005,6 +1031,7 @@
 <http://rws.org/disk/id/217758> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/217758> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/217758> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/217758> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/217758> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/217759> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/217759> <dct:identifier> "4978" .
@@ -1042,6 +1069,7 @@
 <http://rws.org/disk/id/217759> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/217759> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/217759> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/217759> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/217759> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/252410> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252410> <dct:identifier> "4978" .
@@ -1079,6 +1107,7 @@
 <http://rws.org/disk/id/252410> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252410> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252410> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252410> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252410> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/50569> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/50569> <dct:identifier> "4978" .
@@ -1115,6 +1144,7 @@
 <http://rws.org/disk/id/50569> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/50569> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/50569> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/50569> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/50569> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/50574> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/50574> <dct:identifier> "4978" .
@@ -1152,6 +1182,7 @@
 <http://rws.org/disk/id/50574> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/50574> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/50574> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/50574> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/50574> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/50576> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/50576> <dct:identifier> "4978" .
@@ -1189,6 +1220,7 @@
 <http://rws.org/disk/id/50576> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/50576> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/50576> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/50576> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/50576> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/50577> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/50577> <dct:identifier> "4978" .
@@ -1226,6 +1258,7 @@
 <http://rws.org/disk/id/50577> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/50577> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/50577> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/50577> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/50577> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/50578> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/50578> <dct:identifier> "4978" .
@@ -1263,6 +1296,7 @@
 <http://rws.org/disk/id/50578> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/50578> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/50578> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/50578> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/50578> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/50579> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/50579> <dct:identifier> "4978" .
@@ -1300,6 +1334,7 @@
 <http://rws.org/disk/id/50579> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/50579> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/50579> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/50579> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/50579> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/217755> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/217755> <dct:identifier> "4978" .
@@ -1337,6 +1372,7 @@
 <http://rws.org/disk/id/217755> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/217755> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/217755> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/217755> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/217755> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/217756> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/217756> <dct:identifier> "4978" .
@@ -1374,6 +1410,7 @@
 <http://rws.org/disk/id/217756> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/217756> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/217756> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/217756> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/217756> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/217757> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/217757> <dct:identifier> "4978" .
@@ -1411,6 +1448,7 @@
 <http://rws.org/disk/id/217757> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/217757> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/217757> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/217757> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/217757> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/50581> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/50581> <dct:identifier> "4978" .
@@ -1448,6 +1486,7 @@
 <http://rws.org/disk/id/50581> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/50581> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/50581> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/50581> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/50581> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/250489> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/250489> <dct:identifier> "4978" .
@@ -1485,6 +1524,7 @@
 <http://rws.org/disk/id/250489> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/250489> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/250489> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/250489> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/250489> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/250491> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/250491> <dct:identifier> "4978" .
@@ -1522,6 +1562,7 @@
 <http://rws.org/disk/id/250491> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/250491> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/250491> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/250491> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/250491> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/252485> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252485> <dct:identifier> "4978" .
@@ -1559,6 +1600,7 @@
 <http://rws.org/disk/id/252485> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252485> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252485> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252485> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252485> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/217730> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/217730> <dct:identifier> "4978" .
@@ -1596,6 +1638,7 @@
 <http://rws.org/disk/id/217730> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/217730> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/217730> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/217730> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/217730> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/217734> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/217734> <dct:identifier> "4978" .
@@ -1634,6 +1677,7 @@
 <http://rws.org/disk/id/217734> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/217734> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/217734> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/217734> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/217734> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/217943> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/217943> <dct:identifier> "4978" .
@@ -1672,6 +1716,7 @@
 <http://rws.org/disk/id/217943> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/217943> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/217943> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/217943> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/217943> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/217944> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/217944> <dct:identifier> "4978" .
@@ -1710,6 +1755,7 @@
 <http://rws.org/disk/id/217944> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/217944> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/217944> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/217944> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/217944> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/217945> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/217945> <dct:identifier> "4978" .
@@ -1748,6 +1794,7 @@
 <http://rws.org/disk/id/217945> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/217945> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/217945> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/217945> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/217945> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/217946> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/217946> <dct:identifier> "4978" .
@@ -1786,6 +1833,7 @@
 <http://rws.org/disk/id/217946> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/217946> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/217946> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/217946> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/217946> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/252411> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252411> <dct:identifier> "4978" .
@@ -1824,6 +1872,7 @@
 <http://rws.org/disk/id/252411> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252411> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252411> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252411> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252411> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/252412> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252412> <dct:identifier> "4978" .
@@ -1862,6 +1911,7 @@
 <http://rws.org/disk/id/252412> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252412> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252412> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252412> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252412> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
 <http://rws.org/disk/id/252505> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252505> <dct:identifier> "4979" .
@@ -1899,6 +1949,7 @@
 <http://rws.org/disk/id/252505> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252505> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252505> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252505> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252505> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/50619> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/50619> <dct:identifier> "4979" .
@@ -1936,6 +1987,7 @@
 <http://rws.org/disk/id/50619> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/50619> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/50619> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/50619> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/50619> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/50628> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/50628> <dct:identifier> "4979" .
@@ -1973,6 +2025,7 @@
 <http://rws.org/disk/id/50628> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/50628> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/50628> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/50628> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/50628> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/50630> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/50630> <dct:identifier> "4979" .
@@ -2010,6 +2063,7 @@
 <http://rws.org/disk/id/50630> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/50630> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/50630> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/50630> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/50630> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/50631> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/50631> <dct:identifier> "4979" .
@@ -2047,6 +2101,7 @@
 <http://rws.org/disk/id/50631> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/50631> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/50631> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/50631> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/50631> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/50632> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/50632> <dct:identifier> "4979" .
@@ -2084,6 +2139,7 @@
 <http://rws.org/disk/id/50632> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/50632> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/50632> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/50632> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/50632> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/251925> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/251925> <dct:identifier> "4979" .
@@ -2121,6 +2177,7 @@
 <http://rws.org/disk/id/251925> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/251925> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/251925> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/251925> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/251925> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/252496> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252496> <dct:identifier> "4979" .
@@ -2158,6 +2215,7 @@
 <http://rws.org/disk/id/252496> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252496> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252496> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252496> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252496> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/252498> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252498> <dct:identifier> "4979" .
@@ -2195,6 +2253,7 @@
 <http://rws.org/disk/id/252498> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252498> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252498> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252498> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252498> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/252499> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252499> <dct:identifier> "4979" .
@@ -2232,6 +2291,7 @@
 <http://rws.org/disk/id/252499> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252499> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252499> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252499> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252499> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/252500> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252500> <dct:identifier> "4979" .
@@ -2269,6 +2329,7 @@
 <http://rws.org/disk/id/252500> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252500> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252500> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/252509> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252509> <dct:identifier> "4979" .
@@ -2306,6 +2367,7 @@
 <http://rws.org/disk/id/252509> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252509> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252509> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252509> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252509> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/252510> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252510> <dct:identifier> "4979" .
@@ -2343,6 +2405,7 @@
 <http://rws.org/disk/id/252510> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252510> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252510> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252510> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252510> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/252507> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252507> <dct:identifier> "4979" .
@@ -2380,6 +2443,7 @@
 <http://rws.org/disk/id/252507> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252507> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252507> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252507> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252507> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/50618> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/50618> <dct:identifier> "4979" .
@@ -2417,6 +2481,7 @@
 <http://rws.org/disk/id/50618> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/50618> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/50618> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/50618> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/50618> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/104032> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/104032> <dct:identifier> "4979" .
@@ -2454,6 +2519,7 @@
 <http://rws.org/disk/id/104032> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/104032> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/104032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/104032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/104032> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/252508> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252508> <dct:identifier> "4979" .
@@ -2491,6 +2557,7 @@
 <http://rws.org/disk/id/252508> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252508> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252508> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252508> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252508> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/252487> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252487> <dct:identifier> "4979" .
@@ -2528,6 +2595,7 @@
 <http://rws.org/disk/id/252487> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252487> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252487> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252487> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252487> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/252488> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252488> <dct:identifier> "4979" .
@@ -2565,6 +2633,7 @@
 <http://rws.org/disk/id/252488> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252488> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252488> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252488> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252488> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/50603> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/50603> <dct:identifier> "4979" .
@@ -2601,6 +2670,7 @@
 <http://rws.org/disk/id/50603> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/50603> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/50603> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/50603> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/50603> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/50607> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/50607> <dct:identifier> "4979" .
@@ -2638,6 +2708,7 @@
 <http://rws.org/disk/id/50607> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/50607> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/50607> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/50607> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/50607> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/50609> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/50609> <dct:identifier> "4979" .
@@ -2675,6 +2746,7 @@
 <http://rws.org/disk/id/50609> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/50609> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/50609> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/50609> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/50609> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/50610> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/50610> <dct:identifier> "4979" .
@@ -2712,6 +2784,7 @@
 <http://rws.org/disk/id/50610> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/50610> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/50610> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/50610> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/50610> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/50612> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/50612> <dct:identifier> "4979" .
@@ -2749,6 +2822,7 @@
 <http://rws.org/disk/id/50612> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/50612> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/50612> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/50612> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/50612> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/252501> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252501> <dct:identifier> "4979" .
@@ -2786,6 +2860,7 @@
 <http://rws.org/disk/id/252501> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252501> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252501> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252501> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252501> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/252502> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252502> <dct:identifier> "4979" .
@@ -2823,6 +2898,7 @@
 <http://rws.org/disk/id/252502> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252502> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252502> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252502> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252502> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/252503> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252503> <dct:identifier> "4979" .
@@ -2860,6 +2936,7 @@
 <http://rws.org/disk/id/252503> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252503> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252503> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252503> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252503> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/252504> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252504> <dct:identifier> "4979" .
@@ -2897,6 +2974,7 @@
 <http://rws.org/disk/id/252504> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252504> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252504> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252504> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252504> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/50615> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/50615> <dct:identifier> "4979" .
@@ -2934,6 +3012,7 @@
 <http://rws.org/disk/id/50615> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/50615> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/50615> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/50615> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/50615> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/50616> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/50616> <dct:identifier> "4979" .
@@ -2971,6 +3050,7 @@
 <http://rws.org/disk/id/50616> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/50616> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/50616> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/50616> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/50616> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/50617> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/50617> <dct:identifier> "4979" .
@@ -3008,6 +3088,7 @@
 <http://rws.org/disk/id/50617> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/50617> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/50617> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/50617> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/50617> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/252486> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252486> <dct:identifier> "4979" .
@@ -3045,6 +3126,7 @@
 <http://rws.org/disk/id/252486> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252486> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252486> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252486> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252486> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/252511> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252511> <dct:identifier> "4979" .
@@ -3082,6 +3164,7 @@
 <http://rws.org/disk/id/252511> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252511> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252511> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252511> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252511> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/252522> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252522> <dct:identifier> "4979" .
@@ -3119,6 +3202,7 @@
 <http://rws.org/disk/id/252522> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252522> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252522> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252522> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252522> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/252521> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252521> <dct:identifier> "4979" .
@@ -3156,6 +3240,7 @@
 <http://rws.org/disk/id/252521> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252521> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252521> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252521> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252521> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/251926> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/251926> <dct:identifier> "4979" .
@@ -3194,6 +3279,7 @@
 <http://rws.org/disk/id/251926> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/251926> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/251926> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/251926> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/251926> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/252489> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252489> <dct:identifier> "4979" .
@@ -3232,6 +3318,7 @@
 <http://rws.org/disk/id/252489> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252489> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252489> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252489> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252489> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/252490> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252490> <dct:identifier> "4979" .
@@ -3270,6 +3357,7 @@
 <http://rws.org/disk/id/252490> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252490> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252490> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252490> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252490> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/252491> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252491> <dct:identifier> "4979" .
@@ -3308,6 +3396,7 @@
 <http://rws.org/disk/id/252491> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252491> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252491> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252491> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252491> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/252492> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252492> <dct:identifier> "4979" .
@@ -3346,6 +3435,7 @@
 <http://rws.org/disk/id/252492> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252492> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252492> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252492> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252492> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/252493> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252493> <dct:identifier> "4979" .
@@ -3384,6 +3474,7 @@
 <http://rws.org/disk/id/252493> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252493> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252493> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252493> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252493> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/252512> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252512> <dct:identifier> "4979" .
@@ -3422,6 +3513,7 @@
 <http://rws.org/disk/id/252512> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252512> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252512> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252512> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252512> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/252513> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252513> <dct:identifier> "4979" .
@@ -3460,6 +3552,7 @@
 <http://rws.org/disk/id/252513> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252513> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252513> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252513> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252513> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/252514> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252514> <dct:identifier> "4979" .
@@ -3498,6 +3591,7 @@
 <http://rws.org/disk/id/252514> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252514> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252514> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252514> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252514> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/252515> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252515> <dct:identifier> "4979" .
@@ -3536,6 +3630,7 @@
 <http://rws.org/disk/id/252515> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252515> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252515> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252515> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252515> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/252516> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252516> <dct:identifier> "4979" .
@@ -3574,6 +3669,7 @@
 <http://rws.org/disk/id/252516> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252516> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252516> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252516> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252516> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/252517> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252517> <dct:identifier> "4979" .
@@ -3612,6 +3708,7 @@
 <http://rws.org/disk/id/252517> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252517> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252517> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252517> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252517> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/252518> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252518> <dct:identifier> "4979" .
@@ -3650,6 +3747,7 @@
 <http://rws.org/disk/id/252518> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252518> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252518> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252518> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252518> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/252519> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252519> <dct:identifier> "4979" .
@@ -3688,6 +3786,7 @@
 <http://rws.org/disk/id/252519> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252519> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252519> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252519> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252519> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
 <http://rws.org/disk/id/252520> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
 <http://rws.org/disk/id/252520> <dct:identifier> "4979" .
@@ -3726,4 +3825,5 @@
 <http://rws.org/disk/id/252520> <http://rws.org/disk/def/trajectIdentificatie> "30" .
 <http://rws.org/disk/id/252520> <http://rws.org/disk/def/useridModified> "402" .
 <http://rws.org/disk/id/252520> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "Droog" .
+<http://rws.org/disk/id/252520> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk> .
 <http://rws.org/disk/id/252520> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .

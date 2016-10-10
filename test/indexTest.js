@@ -87,6 +87,7 @@ describe('The rdf transformer', function() {
     ];
     const context = {
       '@subject': 'column1',
+      '@type': 'http://test/testobject',
       '@context': {
         '@base': 'http://testme/',
         column1: 'http://column1.org/',
@@ -97,9 +98,11 @@ describe('The rdf transformer', function() {
     return transformer.transform(testData, context)
       .then(rdf => rdf.join('').should.deep.equal(
         '<http://testme/data1> <http://column1.org/> "data1" .\n' +
-          '<http://testme/data1> <http://column2.org/> "data2" .\n' +
+        '<http://testme/data1> <http://column2.org/> "data2" .\n' +
+        '<http://testme/data1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://test/testobject> .\n' +
         '<http://testme/data3> <http://column1.org/> "data3" .\n' +
-          '<http://testme/data3> <http://column2.org/> "data4" .\n'
-        ));
+        '<http://testme/data3> <http://column2.org/> "data4" .\n' +
+        '<http://testme/data3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://test/testobject> .\n'
+      ));
   });
 });
