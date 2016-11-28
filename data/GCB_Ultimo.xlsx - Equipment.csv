@@ -1,0 +1,687 @@
+EqmId,Location,Description,ObjectType,Beheerobjectid,RDX,RDY,Context,Elementid
+69323,NULL,Aanrijbalk,Aanrijbalk,11,NULL,NULL,65536,NULL
+69343,NULL,Aarding- en bliksembeveiligingsinstallatie,Aarding- en bliksembeveiligingsinstallatie,11,NULL,NULL,65536,NULL
+69363,NULL,Afmeervoorziening,Afmeervoorziening,11,NULL,NULL,65536,NULL
+69387,NULL,Antivandalismevoorziening,Antivandalismevoorziening,11,NULL,NULL,65536,NULL
+69404,NULL,Bebording/bewegwijzering (statisch),Bebording/bewegwijzering (statisch),11,NULL,NULL,65536,NULL
+95455,NULL,Bebording/bewegwijzering (statisch),Bebording/bewegwijzering (statisch),5404,NULL,NULL,65536,NULL
+95491,NULL,Bebording/bewegwijzering (statisch),Bebording/bewegwijzering (statisch),5405,NULL,NULL,65536,NULL
+69428,NULL,Kabel,Kabel,11,NULL,NULL,65536,NULL
+69449,NULL,Binnenverlichting,Binnenverlichting,11,NULL,NULL,65536,NULL
+69470,NULL,Bodembescherming,Bodembescherming,11,NULL,NULL,65536,NULL
+69490,NULL,Brandblussysteem,Brandblusinstallatie,11,NULL,NULL,65536,NULL
+69546,NULL,Drainage,Drainage,11,NULL,NULL,65536,NULL
+69567,NULL,Duurzame energiebron,Duurzame energiebron,11,NULL,NULL,65536,NULL
+69588,NULL,Dynamische bewegwijzering en informatie systemen,Dynamische bewegwijzering en informatie systemen,11,NULL,NULL,65536,NULL
+95461,NULL,Dynamische bewegwijzering en informatie systemen,Dynamische bewegwijzering en informatie systemen,5404,NULL,NULL,65536,NULL
+69608,NULL,Fundering,Fundering,11,NULL,NULL,65536,NULL
+69635,NULL,Geleideconstructie,Geleideconstructie,11,NULL,NULL,65536,NULL
+89331,NULL,"Geleideconstructie, staal, niet standaard",Geleideconstructie,5405,NULL,NULL,65536,NULL
+89322,NULL,"Geleideconstructie, staal, niet standaard",Geleideconstructie,5404,NULL,NULL,65536,NULL
+69655,NULL,Geluidwerende constructie,Geluidbeperkende constructie,11,NULL,NULL,65536,NULL
+69675,NULL,Hemelwaterafvoer (HWA),Hemelwaterafvoer (HWA),11,NULL,NULL,65536,NULL
+89333,NULL,"Hemelwaterafvoer (HWA), staal, ",Hemelwaterafvoer (HWA),5405,NULL,NULL,65536,NULL
+89324,NULL,"Hemelwaterafvoer (HWA), staal, ",Hemelwaterafvoer (HWA),5404,NULL,NULL,65536,NULL
+69698,NULL,Hoog Frequent installatie (HF-installatie),Hoog Frequent installatie (HF-installatie),11,NULL,NULL,65536,NULL
+69726,NULL,Hoofddraagconstructie,Hoofddraagconstructie,11,NULL,NULL,65536,NULL
+69930,NULL,Leuning,Hoofddraagconstructie,11,NULL,NULL,65536,NULL
+70330,NULL,Hoofddraagconstructie (Slijtlaag),Hoofddraagconstructie,11,NULL,NULL,65536,NULL
+70254,NULL,Hoofddraagconstructie (Rijvloer),Hoofddraagconstructie,11,NULL,NULL,65536,NULL
+89325,NULL,"Hoofddraagconstructie, staal, ",Hoofddraagconstructie,5404,NULL,NULL,65536,NULL
+89334,NULL,"Hoofddraagconstructie, staal, ",Hoofddraagconstructie,5405,NULL,NULL,65536,NULL
+89332,NULL,"Leuning, staal, ",Hoofddraagconstructie,5405,NULL,NULL,65536,NULL
+89323,NULL,"Leuning, staal, ",Hoofddraagconstructie,5404,NULL,NULL,65536,NULL
+69747,NULL,Hoofddraaipunt,Hoofddraaipunt,11,NULL,NULL,65536,NULL
+69772,NULL,Hoogtedetectie-installatie,Hoogtedetectie-installatie,11,NULL,NULL,65536,NULL
+69800,NULL,Intercominstallatie,Intercominstallatie,11,NULL,NULL,65536,NULL
+69824,NULL,Informatie en Volgsysteem Scheepvaart 1990 (IVS90),Informatie en Volgsysteem Scheepvaart 1990 (IVS90),11,NULL,NULL,65536,NULL
+69845,NULL,Kabeldraagconstructie,Kabeldraagconstructie,11,NULL,NULL,65536,NULL
+471144,NULL,"Tuiconstructie, staal, M",Kabeldraagconstructie,5405,NULL,NULL,65536,NULL
+69865,NULL,Kerende constructie,Kerende constructie,11,NULL,NULL,65536,NULL
+69886,NULL,Laagspanningsinstallatie,Laagspanningsinstallatie,11,NULL,NULL,65536,NULL
+69906,NULL,Leiding,Leiding,11,NULL,NULL,65536,NULL
+69951,NULL,Lift-installatie,Lift-installatie,11,NULL,NULL,65536,NULL
+69976,NULL,Mantelbuis,Mantelbuis,11,NULL,NULL,65536,NULL
+70021,NULL,Wegkantsysteem (WKS),Wegkantsysteem (WKS),11,NULL,NULL,65536,NULL
+95492,NULL,Wegkantsysteem (WKS),Wegkantsysteem (WKS),5405,NULL,NULL,65536,NULL
+95454,NULL,Wegkantsysteem (WKS),Wegkantsysteem (WKS),5404,NULL,NULL,65536,NULL
+70041,NULL,Nautofooninstallatie,Nautofooninstallatie,11,NULL,NULL,65536,NULL
+70066,NULL,"Noodstroominstallatie, statisch","Noodstroominstallatie, statisch",11,NULL,NULL,65536,NULL
+70110,NULL,Onderhoudsvoorziening,Onderhoudsvoorziening,11,NULL,NULL,65536,NULL
+70128,NULL,Openbare verlichting (OV),Openbare verlichting (OV),11,NULL,NULL,65536,NULL
+95499,NULL,Openbare verlichting (OV),Openbare verlichting (OV),5405,NULL,NULL,65536,NULL
+95462,NULL,Openbare verlichting (OV),Openbare verlichting (OV),5404,NULL,NULL,65536,NULL
+89328,NULL,"Oplegging, [MATERIAAL], ",Oplegging,5405,NULL,NULL,65536,NULL
+89319,NULL,"Oplegging, [MATERIAAL], -",Oplegging,5404,NULL,NULL,65536,NULL
+70148,NULL,Oplegging,Oplegging,11,NULL,NULL,65536,NULL
+471143,NULL,"Oplegging, staal, M",Oplegging,5405,NULL,NULL,65536,NULL
+499941,NULL,"Oplegging, staal, M",Oplegging,5404,NULL,NULL,65536,NULL
+70165,NULL,Over- en onderdrukinstallatie,Over- en onderdrukinstallatie,11,NULL,NULL,65536,NULL
+70188,NULL,Pompinstallatie,Pompinstallatie,11,NULL,NULL,65536,NULL
+70212,NULL,Portaal,Portaal,11,NULL,NULL,65536,NULL
+95493,NULL,"Portaal, 012_0080_L, km 59,500 (2629)",Portaal,5405,"135190,059","452547,317",65536,NULL
+95456,NULL,"Portaal sign+ww, 012_0080_R, km 59,400 (2628)",Portaal,5404,"135039,173","452516,586",65536,NULL
+70240,NULL,Remming- en/of geleidewerk,Remming- en/of geleidewerk,11,NULL,NULL,65536,NULL
+70271,NULL,Roltrapinstallatie,Roltrapinstallatie,11,NULL,NULL,65536,NULL
+70292,NULL,Schampkant,Schampkant,11,NULL,NULL,65536,NULL
+70313,NULL,Scheepverkeersbeseining,Scheepverkeersbeseining,11,NULL,NULL,65536,NULL
+70348,NULL,Steiger,Steiger,11,NULL,NULL,65536,NULL
+508865,NULL,Steiger,Steiger,11,NULL,NULL,65536,NULL
+70365,NULL,Steunpunt,Steunpunt,11,NULL,NULL,65536,NULL
+89320,NULL,"Steunpunt, beton, ",Steunpunt,5404,NULL,NULL,65536,NULL
+89329,NULL,"Steunpunt, beton, ",Steunpunt,5405,NULL,NULL,65536,NULL
+70396,NULL,Toegangshek (elektro-mechanisch rolhek of draaihek),Toegangshek,11,NULL,NULL,65536,NULL
+70422,NULL,Trambaan,Trambaan,11,NULL,NULL,65536,NULL
+70439,NULL,Uithouder,Uithouder,11,NULL,NULL,65536,NULL
+70460,NULL,Verankering,Verankering,11,NULL,NULL,65536,NULL
+70481,NULL,"Verharding wegtype 1, Hoofdwegennet","Verharding wegtype 1, Hoofdwegennet",11,NULL,NULL,65536,NULL
+89335,NULL,"Verharding wegtype 1, Hoofdwegennet, zoab op dab, ","Verharding wegtype 1, Hoofdwegennet",5405,NULL,NULL,65536,NULL
+89326,NULL,"Verharding wegtype 1, Hoofdwegennet, zoab op dab, ","Verharding wegtype 1, Hoofdwegennet",5404,NULL,NULL,65536,NULL
+70498,NULL,"Verharding wegtype 2, Zwaarbelaste weg","Verharding wegtype 2, Zwaarbelaste weg",11,NULL,NULL,65536,NULL
+70519,NULL,"Verharding wegtype 3, Gemiddeld belaste weg","Verharding wegtype 3, Gemiddeld belaste weg",11,NULL,NULL,65536,NULL
+70540,NULL,"Verharding wegtype 4, Licht belast","Verharding wegtype 4, Licht belast",11,NULL,NULL,65536,NULL
+70561,NULL,"Verharding wegtype 5, Weg in woongebied","Verharding wegtype 5, Weg in woongebied",11,NULL,NULL,65536,NULL
+70582,NULL,"Verharding wegtype 6, Weg in verblijfsgebied","Verharding wegtype 6, Weg in verblijfsgebied",11,NULL,NULL,65536,NULL
+70603,NULL,"Verharding wegtype 7, Fietspaden","Verharding wegtype 7, Fietspaden",11,NULL,NULL,65536,NULL
+70624,NULL,Verkeersregelinstallatie (VRI),Verkeersregelinstallatie (VRI),11,NULL,NULL,65536,NULL
+70648,NULL,Voegovergang,Voegovergang,11,NULL,NULL,65536,NULL
+89330,NULL,"Voegovergang, staal, ",Voegovergang,5405,NULL,NULL,65536,NULL
+89321,NULL,"Voegovergang, staal, ",Voegovergang,5404,NULL,NULL,65536,NULL
+263758,NULL,Kunstwerkscheiding,Voegovergang,5404,"134981,579","452534,827",65536,NULL
+263759,NULL,Kunstwerkscheiding,Voegovergang,5405,"135283,431","452524,156",65536,NULL
+263760,NULL,Kunstwerkscheiding,Voegovergang,5404,"135306,338","452483,713",65536,NULL
+263756,NULL,Kunstwerkscheiding,Voegovergang,5405,"135283,336","452524,139",65536,NULL
+263757,NULL,Kunstwerkscheiding,Voegovergang,5405,"134959,477","452573,966",65536,NULL
+263753,NULL,Kunstwerkscheiding,Voegovergang,5404,"135306,18","452483,792",65536,NULL
+263754,NULL,Kunstwerkscheiding,Voegovergang,5404,"134981,661","452534,874",65536,NULL
+263755,NULL,Kunstwerkscheiding,Voegovergang,5405,"134959,559","452574,013",65536,NULL
+70683,NULL,Wegmarkering,Wegmarkering,11,NULL,NULL,65536,NULL
+70703,NULL,Weigh In Motion,Weigh In Motion,11,NULL,NULL,65536,NULL
+70753,NULL,Talud,Talud,11,NULL,NULL,65536,NULL
+89318,NULL,"Talud, -, natuurlijk",Talud,5404,NULL,NULL,65536,NULL
+89327,NULL,"Talud, -, natuurlijk",Talud,5405,NULL,NULL,65536,NULL
+70825,NULL,Vleermuiskelder,Vleermuiskelder,11,NULL,NULL,65536,NULL
+80797,NULL,Aandrijf- en bewegingswerk,Aandrijf- en bewegingswerk,11,NULL,|,32768,70396
+73752,NULL,Aandrijving (elektromechanisch),Aandrijving (elektromechanisch),11,NULL,|,32768,69588
+71441,NULL,"Aanrijbalk, Algemeen","Aanrijbalk, Algemeen",11,NULL,|,32768,69323
+72640,NULL,Aansluitconstructie,Aansluitconstructie,11,NULL,|,32768,69470
+74540,NULL,Aansluitleiding,Aansluitleiding,11,NULL,|,32768,69675
+72077,NULL,Aanstraalverlichting,Aanstraalverlichting,11,NULL,|,32768,69404
+71491,NULL,Aardelektrode,Aardelektrode,11,NULL,|,32768,69343
+71492,NULL,"Aarding- en bliksembeveiligingsinstallatie, Algemeen","Aarding- en bliksembeveiligingsinstallatie, Algemeen",11,NULL,|,32768,69343
+71493,NULL,Aardklem,"Aarding- en bliksembeveiligingsinstallatie, Algemeen",11,NULL,|,32768,69343
+73554,NULL,Accu,Accu,11,NULL,|,32768,69567
+80249,NULL,Accu,Accu,11,NULL,|,32768,70313
+78347,NULL,Accu,Accu,11,NULL,|,32768,70066
+71686,NULL,Achterbeplating fender,Achterbeplating fender,11,NULL,|,32768,69363
+77897,NULL,Achtergrondschild,Achtergrondschild,11,NULL,|,32768,70021
+80250,NULL,Achtergrondschild,Achtergrondschild,11,NULL,|,32768,70313
+81125,NULL,Achterplaat,Achterplaat,11,NULL,|,32768,70460
+99255,NULL,"Achterplaat, beton, OVSP 01-04",Achterplaat,5405,NULL,NULL,32768,89334
+99256,NULL,"Achterplaat, beton, STP 02+03",Achterplaat,5405,NULL,NULL,32768,89334
+99222,NULL,"Achterplaat, beton, STP 02+03",Achterplaat,5404,NULL,NULL,32768,89325
+99221,NULL,"Achterplaat, beton, OVSP 01-04",Achterplaat,5404,NULL,NULL,32768,89325
+76557,NULL,Achterplaat,Achterplaat,11,NULL,|,32768,69865
+81873,NULL,Afdichtingsprofiel,Afdichtingsprofiel,11,NULL,|,32768,70648
+79123,NULL,Afsluiter,Afsluiter,11,NULL,|,32768,70188
+72845,NULL,Afsluiter,Afsluiter,11,NULL,|,32768,69490
+75274,NULL,Anker,Anker,11,NULL,|,32768,69726
+74945,NULL,Antenne,Antenne,11,NULL,|,32768,69698
+71968,NULL,"Antivandalismevoorziening, Algemeen","Antivandalismevoorziening, Algemeen",11,NULL,|,32768,69387
+73434,NULL,Appendage,Appendage,11,NULL,|,32768,69546
+72846,NULL,Appendage,Appendage,11,NULL,|,32768,69490
+74541,NULL,Appendage,Appendage,11,NULL,|,32768,69675
+76342,NULL,Appendage,Appendage,11,NULL,|,32768,69845
+77132,NULL,Appendage,Appendage,11,NULL,|,32768,69906
+79124,NULL,Appendage,Appendage,11,NULL,|,32768,70188
+78920,NULL,Appendage,Appendage,11,NULL,|,32768,70165
+77591,NULL,Appendage,Appendage,11,NULL,|,32768,69976
+78685,NULL,Armatuur,Armatuur,11,NULL,|,32768,70128
+72499,NULL,Armatuur,Armatuur,11,NULL,|,32768,69449
+467631,NULL,Armatuur,Armatuur,5405,NULL,NULL,32768,95499
+467619,NULL,Armatuur,Armatuur,5404,NULL,NULL,32768,95462
+604724,NULL,Asfaltconstructie,Asfaltconstructie,11,NULL,NULL,32768,70481
+76558,NULL,Asfaltconstructie,Asfaltconstructie,11,NULL,|,32768,69865
+99232,NULL,"Asfaltconstructie, dab, STP 01-04",Asfaltconstructie,5404,NULL,NULL,32768,89326
+99266,NULL,"Asfaltconstructie, dab, STP 01-04",Asfaltconstructie,5405,NULL,NULL,32768,89335
+75275,NULL,Balanspriem,Balanspriem,11,NULL,|,32768,69726
+79125,NULL,Balg,Balg,11,NULL,|,32768,70188
+74012,NULL,Balk,Balk,11,NULL,|,32768,69608
+74219,NULL,Geleidebarri&amp;euml;r,Geleidebarriër,11,NULL,|,32768,69635
+72078,NULL,"Bebording/bewegwijzering, Algemeen","Bebording/bewegwijzering (statisch), Algemeen",11,NULL,|,32768,69404
+72847,NULL,Bedieningspaneel,Bedieningspaneel,11,NULL,|,32768,69490
+77285,NULL,Bedieningspaneel,Bedieningspaneel,11,NULL,|,32768,69951
+76034,NULL,Bedieningspaneel,Bedieningspaneel,11,NULL,|,32768,69800
+78107,NULL,Bedieningspaneel,Bedieningspaneel,11,NULL,|,32768,70041
+79126,NULL,Bedieningspaneel,Bedieningspaneel,11,NULL,|,32768,70188
+80798,NULL,Bedieningspaneel,Bedieningspaneel,11,NULL,|,32768,70396
+79794,NULL,Be&amp;euml;indigingsprofiel,Beëindigingsprofiel,11,NULL,|,32768,70254
+81874,NULL,Be&amp;euml;indigingsprofiel,Beëindigingsprofiel,11,NULL,|,32768,70648
+74353,NULL,"Begroeiing, geluidwerende voorziening",Begroeiing,11,NULL,|,32768,69655
+74946,NULL,Bekabeling,Bekabeling,11,NULL,|,32768,69698
+76035,NULL,Bekabeling,Bekabeling,11,NULL,|,32768,69800
+76216,NULL,Bekabeling,Bekabeling,11,NULL,|,32768,69824
+75782,NULL,Bekabeling,Bekabeling,11,NULL,|,32768,69772
+77286,NULL,Bekabeling,Bekabeling,11,NULL,|,32768,69951
+76997,NULL,Bekabeling,Bekabeling,11,NULL,|,32768,69886
+72848,NULL,Bekabeling,Bekabeling,11,NULL,|,32768,69490
+73753,NULL,Bekabeling,Bekabeling,11,NULL,|,32768,69588
+73555,NULL,Bekabeling,Bekabeling,11,NULL,|,32768,69567
+72079,NULL,Bekabeling,Bekabeling,11,NULL,|,32768,69404
+72500,NULL,Bekabeling,Bekabeling,11,NULL,|,32768,69449
+71494,NULL,Bekabeling,Bekabeling,11,NULL,|,32768,69343
+81651,NULL,Bekabeling,Bekabeling,11,NULL,|,32768,70624
+82045,NULL,Bekabeling,Bekabeling,11,NULL,|,32768,70703
+80251,NULL,Bekabeling,Bekabeling,11,NULL,|,32768,70313
+79889,NULL,Bekabeling,Bekabeling,11,NULL,|,32768,70271
+80799,NULL,Bekabeling,Bekabeling,11,NULL,|,32768,70396
+78348,NULL,Bekabeling,Bekabeling,11,NULL,|,32768,70066
+78108,NULL,Bekabeling,Bekabeling,11,NULL,|,32768,70041
+77898,NULL,Bekabeling,Bekabeling,11,NULL,|,32768,70021
+78686,NULL,Bekabeling,Bekabeling,11,NULL,|,32768,70128
+78921,NULL,Bekabeling,Bekabeling,11,NULL,|,32768,70165
+467617,NULL,Bekabeling,Bekabeling,5404,NULL,NULL,32768,95462
+467629,NULL,Bekabeling,Bekabeling,5405,NULL,NULL,32768,95499
+72389,NULL,"Kabel, Algemeen","Kabel, Algemeen",11,NULL,|,32768,69428
+81491,NULL,Betonverharding,Betonverharding,11,NULL,|,32768,70582
+81554,NULL,Betonverharding,Betonverharding,11,NULL,|,32768,70603
+81200,NULL,Betonverharding,Betonverharding,11,NULL,|,32768,70481
+81239,NULL,Betonverharding,Betonverharding,11,NULL,|,32768,70498
+81302,NULL,Betonverharding,Betonverharding,11,NULL,|,32768,70519
+81365,NULL,Betonverharding,Betonverharding,11,NULL,|,32768,70540
+81428,NULL,Betonverharding,Betonverharding,11,NULL,|,32768,70561
+81127,NULL,Moer,Bevestiging,11,NULL,|,32768,70460
+72080,NULL,Bevestiging,Bevestiging,11,NULL,|,32768,69404
+77287,NULL,Bewegingswerk,Bewegingswerk,11,NULL,|,32768,69951
+79890,NULL,Bewegingswerk,Bewegingswerk,11,NULL,|,32768,70271
+72081,NULL,Bewegwijzeringsbord,Bewegwijzeringsbord,11,NULL,|,32768,69404
+105165,NULL,Bewegwijzeringsbord,Bewegwijzeringsbord,5405,NULL,NULL,32768,95491
+72501,NULL,"Binnenverlichting, Algemeen","Binnenverlichting, Algemeen",11,NULL,|,32768,69449
+76560,NULL,Blokkenmuur,Blokkenmuur,11,NULL,|,32768,69865
+72641,NULL,"Bodembescherming, Algemeen","Bodembescherming, Algemeen",11,NULL,|,32768,69470
+72642,NULL,Bodemstabilisatie,Bodemstabilisatie,11,NULL,|,32768,69470
+76561,NULL,Bodemverdediging,Bodemverdediging,11,NULL,|,32768,69865
+76562,NULL,Bolder,Bolder,11,NULL,|,32768,69865
+71687,NULL,Bolder,Bolder,11,NULL,|,32768,69363
+80452,NULL,Bolder,Bolder,11,NULL,|,32768,70348
+79649,NULL,Bolder,Bolder,11,NULL,|,32768,70240
+75277,NULL,Boog,Boog,11,NULL,|,32768,69726
+79650,NULL,Bordes,Bordes,11,NULL,|,32768,70240
+80453,NULL,Bordes,Bordes,11,NULL,|,32768,70348
+80981,NULL,Bovenleiding,Bovenleiding,11,NULL,|,32768,70422
+72849,NULL,Brandblusser,Brandblusser,11,NULL,|,32768,69490
+72850,NULL,"Brandblussysteem, Algemeen","Brandblusinstallatie, Algemeen",11,NULL,|,32768,69490
+73556,NULL,Brandstofcel,Brandstofcel,11,NULL,|,32768,69567
+79651,NULL,Buffer,Buffer,11,NULL,|,32768,70240
+79652,NULL,Buis,Buis,11,NULL,|,32768,70240
+82736,NULL,Faunageleiding,Buis,11,NULL,|,32768,70825
+74555,NULL,Rioolbuis pers,Buis,11,NULL,|,32768,69675
+74556,NULL,Rioolbuis vrij verval,Buis,11,NULL,|,32768,69675
+423701,NULL,Rioolbuis vrij verval,Buis,5404,NULL,NULL,32768,89324
+423707,NULL,Rioolbuis vrij verval,Buis,5405,NULL,NULL,32768,89333
+74947,NULL,C2000,C2000,11,NULL,|,32768,69698
+74013,NULL,Caisson,Caisson,11,NULL,|,32768,69608
+76563,NULL,Caisson,Caisson,11,NULL,|,32768,69865
+77288,NULL,Cilinder,Cilinder,11,NULL,|,32768,69951
+74948,NULL,Coaxstralers (tunnelbekabeling),Coaxstralers (tunnelbekabeling),11,NULL,|,32768,69698
+76564,NULL,Combiwand,Combiwand,11,NULL,|,32768,69865
+74949,NULL,Connector,Connector,11,NULL,|,32768,69698
+75278,NULL,Console,Console,11,NULL,|,32768,69726
+99250,NULL,"Console, staal, OVSP 01-04",Console,5405,NULL,NULL,32768,89334
+99216,NULL,"Console, staal, OVSP 01-04",Console,5404,NULL,NULL,32768,89325
+73755,NULL,"Constructie-Mechaniek (Behuizing, lamellen, lagers, ophanging)","Constructie-Mechaniek (Behuizing, lamellen, lagers, ophanging)",11,NULL,|,32768,69588
+75276,NULL,Ballastkist,Contragewicht,11,NULL,|,32768,69726
+76565,NULL,Damwand,Damwand,11,NULL,|,32768,69865
+76566,NULL,Damwandkop,Damwandkop,11,NULL,|,32768,69865
+82047,NULL,Detectielus,Detectielus,11,NULL,|,32768,70703
+81652,NULL,Detectielus,Detectielus,11,NULL,|,32768,70624
+77899,NULL,Detectielus,Detectielus,11,NULL,|,32768,70021
+80800,NULL,Detectielus,Detectielus,11,NULL,|,32768,70396
+79891,NULL,Detector,Detector,11,NULL,|,32768,70271
+77900,NULL,Detectorstation (DS),Detector,11,NULL,|,32768,70021
+75783,NULL,Detector,Detector,11,NULL,|,32768,69772
+77289,NULL,Detector,Detector,11,NULL,|,32768,69951
+82734,NULL,Deur,Deur,11,NULL,|,32768,70825
+75279,NULL,Diagonaal (vakwerkligger),Diagonaal (vakwerkligger),11,NULL,|,32768,69726
+76567,NULL,Diepwand,Diepwand,11,NULL,|,32768,69865
+78349,NULL,Display,Display,11,NULL,|,32768,70066
+81126,NULL,Draadstang,Draadstang,11,NULL,|,32768,70460
+76568,NULL,Draadstang,Draadstang,11,NULL,|,32768,69865
+75657,NULL,Draaipunt,Draaipunt,11,NULL,|,32768,69747
+73435,NULL,Drainagebuis,Drainagebuis,11,NULL,|,32768,69546
+80455,NULL,Drijfraam,Drijfraam,11,NULL,|,32768,70348
+79654,NULL,Drijfraam,Drijfraam,11,NULL,|,32768,70240
+81653,NULL,Drukknoppaal,Drukknoppaal,11,NULL,|,32768,70624
+81660,NULL,Drukknop,Drukknoppaal,11,NULL,|,32768,70624
+74014,NULL,Drukpalen,Drukpalen,11,NULL,|,32768,69608
+73557,NULL,"Duurzame energiebron, Algemeen","Duurzame energiebron, Algemeen",11,NULL,|,32768,69567
+75280,NULL,Dwarsdrager,Dwarsdrager,11,NULL,|,32768,69726
+99215,NULL,"Dwarsdrager, staal, OVSP 01-04",Dwarsdrager,5404,NULL,NULL,32768,89325
+99229,NULL,"Dwarsdrager, staal, STP 01+04",Dwarsdrager,5404,NULL,NULL,32768,89325
+99249,NULL,"Dwarsdrager, staal, OVSP 01-04",Dwarsdrager,5405,NULL,NULL,32768,89334
+99263,NULL,"Dwarsdrager, staal, STP 01+04",Dwarsdrager,5405,NULL,NULL,32768,89334
+73756,NULL,"Dynamische bewegwijzering en informatiesystemen, Algemeen","Dynamische bewegwijzering en informatiesystemen, Algemeen",11,NULL,|,32768,69588
+73754,NULL,Bordverlichting,"Dynamische bewegwijzering en informatiesystemen, Algemeen",11,NULL,|,32768,69588
+77290,NULL,Elektromotor,Elektromotor,11,NULL,|,32768,69951
+79892,NULL,Elektromotor,Elektromotor,11,NULL,|,32768,70271
+81492,NULL,Elementenverharding,Elementenverharding,11,NULL,|,32768,70582
+81555,NULL,Elementenverharding,Elementenverharding,11,NULL,|,32768,70603
+81366,NULL,Elementenverharding,Elementenverharding,11,NULL,|,32768,70540
+81429,NULL,Elementenverharding,Elementenverharding,11,NULL,|,32768,70561
+81303,NULL,Elementenverharding,Elementenverharding,11,NULL,|,32768,70519
+81240,NULL,Elementenverharding,Elementenverharding,11,NULL,|,32768,70498
+76559,NULL,Bestrating,Elementenverharding,11,NULL,|,32768,69865
+76581,NULL,Zetsteen,Elementenverharding,11,NULL,|,32768,69865
+72390,NULL,Energiekabel,Energiekabel,11,NULL,|,32768,69428
+77298,NULL,Noodverlichting,Evacuatieverlichting,11,NULL,|,32768,69951
+71688,NULL,Fender,Stootkussen,11,NULL,|,32768,69363
+99254,NULL,"Frame, staal, STP 02+03",Frame,5405,NULL,NULL,32768,89334
+99220,NULL,"Frame, staal, STP 02+03",Frame,5404,NULL,NULL,32768,89325
+79655,NULL,Frame,Frame,11,NULL,|,32768,70240
+80252,NULL,Fundatie,Fundatie,11,NULL,|,32768,70313
+80801,NULL,Fundering,Fundatie,11,NULL,|,32768,70396
+77902,NULL,Fundatie,Fundatie,11,NULL,|,32768,70021
+79380,NULL,Fundering,Fundatie,11,NULL,|,32768,70212
+99208,NULL,"Fundatie, beton, STP 01-04",Fundatie,5404,NULL,NULL,32768,89320
+99242,NULL,"Fundatie, beton, STP 01-04",Fundatie,5405,NULL,NULL,32768,89329
+81654,NULL,Fundatie,Fundatie,11,NULL,|,32768,70624
+72083,NULL,Fundatie,Fundatie,11,NULL,|,32768,69404
+71969,NULL,Fundatie,Fundatie,11,NULL,|,32768,69387
+75785,NULL,Fundatie,Fundatie,11,NULL,|,32768,69772
+74950,NULL,Fundatie,Fundatie,11,NULL,|,32768,69698
+73758,NULL,Fundatie,Fundatie,11,NULL,|,32768,69588
+267237,NULL,Fundering,Fundatie,5404,NULL,NULL,32768,95456
+267242,NULL,Fundering,Fundatie,5405,NULL,NULL,32768,95493
+604717,NULL,Fundatie,Fundatie,11,NULL,NULL,32768,70365
+267243,NULL,Geleidende balk,Geleidende balk,5405,NULL,NULL,32768,95493
+267238,NULL,Geleidende balk,Geleidende balk,5404,NULL,NULL,32768,95456
+79381,NULL,Geleidende balk,Geleidende balk,11,NULL,|,32768,70212
+81037,NULL,Geleidende balk,Geleidende balk,11,NULL,|,32768,70439
+71495,NULL,Geleider,Geleider,11,NULL,|,32768,69343
+74220,NULL,Geleiderail,Geleiderail,11,NULL,|,32768,69635
+99246,NULL,"Geleiderail, staal, MB 02",Geleiderail,5405,NULL,NULL,32768,89331
+99247,NULL,"Geleiderail, staal, ZB 03+04",Geleiderail,5405,NULL,NULL,32768,89331
+99212,NULL,"Geleiderail, staal, MB 01",Geleiderail,5404,NULL,NULL,32768,89322
+99213,NULL,"Geleiderail, staal, ZB 01+02",Geleiderail,5404,NULL,NULL,32768,89322
+78350,NULL,Gelijkrichter,Gelijkrichter,11,NULL,|,32768,70066
+74349,NULL,Geluidscherm,Geluidwering,11,NULL,|,32768,69655
+74350,NULL,Geluidwerende voorziening,Geluidwering,11,NULL,|,32768,69655
+74351,NULL,Geluidwering,Geluidwering,11,NULL,|,32768,69655
+72643,NULL,Geotextiel,Geotextiel,11,NULL,|,32768,69470
+72391,NULL,Glasvezelkabel,Glasvezelkabel,11,NULL,|,32768,69428
+74545,NULL,Goot,Goot,11,NULL,|,32768,69675
+423703,NULL,Goot,Goot,5405,NULL,NULL,32768,89333
+423697,NULL,Goot,Goot,5404,NULL,NULL,32768,89324
+76569,NULL,Gording,Gording,11,NULL,|,32768,69865
+74015,NULL,Grondverbetering,Grondverbetering,11,NULL,|,32768,69608
+74016,NULL,H-palen,H-palen,11,NULL,|,32768,69608
+76570,NULL,Haalkom,Haalkom,11,NULL,|,32768,69865
+71689,NULL,Haalkom,Haalkom,11,NULL,|,32768,69363
+75281,NULL,Hameistijl (poort),Hameistijl (poort),11,NULL,|,32768,69726
+75282,NULL,Hanger (boogbrug),Hanger (boogbrug),11,NULL,|,32768,69726
+75283,NULL,Hangstang,Hangstang,11,NULL,|,32768,69726
+72084,NULL,Hectometerbord,Hectometerbord,11,NULL,|,32768,69404
+105166,NULL,Hectometerbord,Hectometerbord,5405,NULL,NULL,32768,95491
+104795,NULL,Hectometerbord,Hectometerbord,5404,NULL,NULL,32768,95455
+80802,NULL,Hekwerk,Hek,11,NULL,|,32768,70396
+80805,NULL,Toegangshek,Hek,11,NULL,|,32768,70396
+74546,NULL,Helofytenfilter,Helofytenfilter,11,NULL,|,32768,69675
+74542,NULL,Bergbassin,"Hemelwaterafvoer (HWA), Algemeen",11,NULL,|,32768,69675
+74543,NULL,Bergbezinkbassin,"Hemelwaterafvoer (HWA), Algemeen",11,NULL,|,32768,69675
+74544,NULL,Blusvijver,"Hemelwaterafvoer (HWA), Algemeen",11,NULL,|,32768,69675
+74547,NULL,"Hemelwaterafvoer (HWA), Algemeen","Hemelwaterafvoer (HWA), Algemeen",11,NULL,|,32768,69675
+102935,NULL,"Hemelwaterafvoer (HWA), Algemeen, staal, -","Hemelwaterafvoer (HWA), Algemeen",5405,NULL,NULL,32768,89333
+102941,NULL,"Hemelwaterafvoer (HWA), Algemeen, staal, -","Hemelwaterafvoer (HWA), Algemeen",5404,NULL,NULL,32768,89324
+74951,NULL,"Hoog Frequent installatie (HF-Installatie), Algemeen","Hoog Frequent installatie (HF-Installatie), Algemeen",11,NULL,|,32768,69698
+75658,NULL,"Hoofddraaipunt, Algemeen","Hoofddraaipunt, Algemeen",11,NULL,|,32768,69747
+76998,NULL,Hoofdverdeler,Hoofdverdeler,11,NULL,|,32768,69886
+75786,NULL,"Hoogtedetectie-installatie, Algemeen","Hoogtedetectie-installatie, Algemeen",11,NULL,|,32768,69772
+77291,NULL,"Hydraulisch aggregaat (pomp, motor, kleppenblok, tankeenheid)","Hydraulisch aggregaat (pomp, motor, kleppenblok, tankeenheid)",11,NULL,|,32768,69951
+74017,NULL,In grond vervaardigde palen,In grond vervaardigde palen,11,NULL,|,32768,69608
+74548,NULL,Individuele Behandeling van Afvalwater (IBA),Individuele Behandeling van Afvalwater (IBA),11,NULL,|,32768,69675
+74549,NULL,Infiltratiekratten,Infiltratiekratten,11,NULL,|,32768,69675
+74550,NULL,Infiltratieleiding,Infiltratieleiding,11,NULL,|,32768,69675
+74551,NULL,Infiltratievelden,Infiltratievelden,11,NULL,|,32768,69675
+74552,NULL,Infiltratievijvers,Infiltratievijvers,11,NULL,|,32768,69675
+77292,NULL,Intercom,Intercom,11,NULL,|,32768,69951
+76036,NULL,"Intercominstallatie, Algemeen","Intercominstallatie, Algemeen",11,NULL,|,32768,69800
+76037,NULL,Intercompost,Intercompost,11,NULL,|,32768,69800
+76221,NULL,Toetsenbord,"Informatie- en Volgsysteem Scheepvaart 1990 (IVS90), Algemeen",11,NULL,|,32768,69824
+76217,NULL,"Informatie- en Volgsysteem Scheepvaart 1990 (IVS90), Algemeen","Informatie- en Volgsysteem Scheepvaart 1990 (IVS90), Algemeen",11,NULL,|,32768,69824
+80628,NULL,Juk,Juk,11,NULL,|,32768,70365
+71690,NULL,Kaapstander,Kaapstander,11,NULL,|,32768,69363
+76343,NULL,Kabeldoorvoer,Kabeldoorvoer,11,NULL,|,32768,69845
+76344,NULL,"Kabeldraagconstructie, Algemeen","Kabeldraagconstructie, Algemeen",11,NULL,|,32768,69845
+76345,NULL,Kabelgoot,Kabelgoot,11,NULL,|,32768,69845
+76346,NULL,Kabeltender,Kabeltender,11,NULL,|,32768,69845
+78922,NULL,Luchtkanaal,Luchtkanaal,11,NULL,|,32768,70165
+78687,NULL,Kast,Kast,11,NULL,|,32768,70128
+79128,NULL,Kast,Kast,11,NULL,|,32768,70188
+78923,NULL,Kast,Kast,11,NULL,|,32768,70165
+77903,NULL,Kast,Kast,11,NULL,|,32768,70021
+77904,NULL,Luskoppelkast (LKK),Kast,11,NULL,|,32768,70021
+78351,NULL,Kast,Kast,11,NULL,|,32768,70066
+78109,NULL,Kast,Kast,11,NULL,|,32768,70041
+77293,NULL,Kast,Kast,11,NULL,|,32768,69951
+80803,NULL,Kast / Behuizing,Kast,11,NULL,|,32768,70396
+80253,NULL,Kast,Kast,11,NULL,|,32768,70313
+79893,NULL,Kast,Kast,11,NULL,|,32768,70271
+81655,NULL,Kast,Kast,11,NULL,|,32768,70624
+82048,NULL,Kast,Kast,11,NULL,|,32768,70703
+76999,NULL,Kast,Kast,11,NULL,|,32768,69886
+75787,NULL,Kast,Kast,11,NULL,|,32768,69772
+76218,NULL,Kast,Kast,11,NULL,|,32768,69824
+76038,NULL,Kast,Kast,11,NULL,|,32768,69800
+73759,NULL,Kast,Kast,11,NULL,|,32768,69588
+74952,NULL,Kast,Kast,11,NULL,|,32768,69698
+72085,NULL,Kast,Kast,11,NULL,|,32768,69404
+72851,NULL,Kast,Kast,11,NULL,|,32768,69490
+72502,NULL,Kast,Kast,11,NULL,|,32768,69449
+73558,NULL,Kast,Kast,11,NULL,|,32768,69567
+467616,NULL,Kast,Kast,5404,NULL,NULL,32768,95462
+467628,NULL,Kast,Kast,5405,NULL,NULL,32768,95499
+76572,NULL,Keermuur,Keermuur,11,NULL,|,32768,69865
+80456,NULL,Kesp,Kesp,11,NULL,|,32768,70348
+79894,NULL,Ketting,Ketting,11,NULL,|,32768,70271
+71691,NULL,Ketting,Ketting,11,NULL,|,32768,69363
+71692,NULL,Kettingoog,Kettingoog,11,NULL,|,32768,69363
+71693,NULL,Kettingverankering,Kettingverankering,11,NULL,|,32768,69363
+73760,NULL,"Klimaatinstallatie (ventilatie, verwarming is van toepassing bij DRIP's en GRIP's).","Klimaatinstallatie (ventilatie, verwarming is van toepassing bij DRIP's en GRIP's)",11,NULL,|,32768,69588
+80804,NULL,Knelbeveiliging,Knelbeveiliging,11,NULL,|,32768,70396
+75284,NULL,Knooppunt,Knooppunt,11,NULL,|,32768,69726
+74553,NULL,Kolk,Kolk,11,NULL,|,32768,69675
+74557,NULL,Rioolput,Kolk,11,NULL,|,32768,69675
+74559,NULL,Zakputten,Kolk,11,NULL,|,32768,69675
+73437,NULL,Put,Kolk,11,NULL,|,32768,69546
+423708,NULL,Rioolput,Kolk,5405,NULL,NULL,32768,89333
+423702,NULL,Rioolput,Kolk,5404,NULL,NULL,32768,89324
+423699,NULL,Kolk,Kolk,5404,NULL,NULL,32768,89324
+423705,NULL,Kolk,Kolk,5405,NULL,NULL,32768,89333
+77294,NULL,Kooi,Kooi,11,NULL,|,32768,69951
+77000,NULL,KWh-metering,KWh-metering,11,NULL,|,32768,69886
+77001,NULL,"Laagspanningsinstallatie, Algemeen","Laagspanningsinstallatie, Algemeen",11,NULL,|,32768,69886
+80457,NULL,Ladder,Ladder,11,NULL,|,32768,70348
+79656,NULL,Ladder,Ladder,11,NULL,|,32768,70240
+76347,NULL,Ladderbaan,Ladderbaan,11,NULL,|,32768,69845
+80629,NULL,Landhoofd,Landhoofd,11,NULL,|,32768,70365
+81656,NULL,Landverkeerssein,Landverkeerssein,11,NULL,|,32768,70624
+75788,NULL,Landverkeerssein,Landverkeerssein,11,NULL,|,32768,69772
+75285,NULL,Langsligger,Langsligger,11,NULL,|,32768,69726
+99260,NULL,"hoofdligger, staal, OVSP 01-04",Langsligger,5405,NULL,NULL,32768,89334
+99261,NULL,"kantligger, staal, OVSP 01-04",Langsligger,5405,NULL,NULL,32768,89334
+99262,NULL,"Langsligger, staal, OVSP 01-04",Langsligger,5405,NULL,NULL,32768,89334
+99264,NULL,"ligger, staal, OVSP 02-03",Langsligger,5405,NULL,NULL,32768,89334
+99265,NULL,"ligger, staal, STP 01+04",Langsligger,5405,NULL,NULL,32768,89334
+99230,NULL,"ligger, staal, OVSP 02-03",Langsligger,5404,NULL,NULL,32768,89325
+99231,NULL,"ligger, staal, STP 01+04",Langsligger,5404,NULL,NULL,32768,89325
+99226,NULL,"hoofdligger, staal, OVSP 01-04",Langsligger,5404,NULL,NULL,32768,89325
+99227,NULL,"kantligger, staal, OVSP 01-04",Langsligger,5404,NULL,NULL,32768,89325
+99228,NULL,"Langsligger, staal, OVSP 01-04",Langsligger,5404,NULL,NULL,32768,89325
+73761,NULL,"LED-display (LED panelen, behuizing, bekabeling)","LED-display (LED panelen, behuizing, bekabeling)",11,NULL,|,32768,69588
+77133,NULL,Buisleiding,Buisleiding,11,NULL,|,32768,69906
+72852,NULL,Buisleiding,Buisleiding,11,NULL,|,32768,69490
+77592,NULL,Buisleiding,Buisleiding,11,NULL,|,32768,69976
+78924,NULL,Buisleiding,Buisleiding,11,NULL,|,32768,70165
+79129,NULL,Buisleiding,Buisleiding,11,NULL,|,32768,70188
+77134,NULL,"Leiding, Algemeen","Leiding, Algemeen",11,NULL,|,32768,69906
+80458,NULL,Reling,Reling,11,NULL,|,32768,70348
+79895,NULL,Leuningband,Leuningband,11,NULL,|,32768,70271
+77295,NULL,"Lift-installatie, Algemeen","Lift-installatie, Algemeen",11,NULL,|,32768,69951
+77296,NULL,Liftdeur,Liftdeur,11,NULL,|,32768,69951
+79657,NULL,Verbindingsbrug (Loopbrug),Verbindingsbrug (Loopbrug),11,NULL,|,32768,70240
+79896,NULL,Luik,Luik,11,NULL,|,32768,70271
+79130,NULL,Luik,Luik,11,NULL,|,32768,70188
+76573,NULL,Maaiveld,Maaiveld,11,NULL,|,32768,69865
+77593,NULL,"Mantelbuis, Algemeen","Mantelbuis, Algemeen",11,NULL,|,32768,69976
+76574,NULL,Markering,Markering,11,NULL,|,32768,69865
+75784,NULL,Draagconstructie (mast/portaal),Mast,11,NULL,|,32768,69772
+73762,NULL,Mast,Mast,11,NULL,|,32768,69588
+74953,NULL,Mast,Mast,11,NULL,|,32768,69698
+72086,NULL,Mast,Mast,11,NULL,|,32768,69404
+78110,NULL,Mast,Mast,11,NULL,|,32768,70041
+77901,NULL,Draagconstructie (mast/portaal),Mast,11,NULL,|,32768,70021
+78688,NULL,Mast,Mast,11,NULL,|,32768,70128
+80254,NULL,Mast,Mast,11,NULL,|,32768,70313
+81657,NULL,Mast,Mast,11,NULL,|,32768,70624
+467618,NULL,Mast,Mast,5404,NULL,NULL,32768,95462
+467630,NULL,Mast,Mast,5405,NULL,NULL,32768,95499
+75789,NULL,Matrix,Matrix,11,NULL,|,32768,69772
+77905,NULL,Matrixsignaalgever,Matrixsignaalgever,11,NULL,|,32768,70021
+108019,NULL,Matrixsignaalgever,Matrixsignaalgever,5405,NULL,NULL,32768,95492
+108034,NULL,Matrixsignaalgever,Matrixsignaalgever,5404,NULL,NULL,32768,95454
+71694,NULL,Meerpaal,Meerpaal,11,NULL,|,32768,69363
+71695,NULL,Meerstoel,Meerstoel,11,NULL,|,32768,69363
+78353,NULL,Meetsysteem,Meetsysteem,11,NULL,|,32768,70066
+76219,NULL,Monitor,Monitor,11,NULL,|,32768,69824
+77906,NULL,"Wegkantsysteem (WKS), Algemeen","Wegkantsysteem (WKS), Algemeen",11,NULL,|,32768,70021
+77907,NULL,Onderstation (OS),"Wegkantsysteem (WKS), Algemeen",11,NULL,|,32768,70021
+78111,NULL,Nautofoon,Nautofoon,11,NULL,|,32768,70041
+78112,NULL,"Nautofooninstallatie, Algemeen","Nautofooninstallatie, Algemeen",11,NULL,|,32768,70041
+79897,NULL,Noodstop,Noodstop,11,NULL,|,32768,70271
+77297,NULL,Noodstop,Noodstop,11,NULL,|,32768,69951
+78354,NULL,"Noodstroominstallatie, statisch, Algemeen","Noodstroominstallatie, statisch, Algemeen",11,NULL,|,32768,70066
+74221,NULL,Obstakelbeveiliger,Obstakelbeveiliger,11,NULL,|,32768,69635
+78637,NULL,"Onderhoudsvoorziening, Algemeen","Onderhoudsvoorziening, Algemeen",11,NULL,|,32768,70110
+77004,NULL,Tussenverdeler,Onderverdeler,11,NULL,|,32768,69886
+77002,NULL,Onderverdeler,Onderverdeler,11,NULL,|,32768,69886
+72644,NULL,Ontvangbed,Ontvangbed,11,NULL,|,32768,69470
+74018,NULL,Open buispalen,Open buispalen,11,NULL,|,32768,69608
+78689,NULL,"Openbare verlichting (OV), Algemeen","Openbare verlichting (OV), Algemeen",11,NULL,|,32768,70128
+72645,NULL,Openfilterconstructie,Openfilterconstructie,11,NULL,|,32768,69470
+78815,NULL,"Oplegging, Algemeen","Oplegging, Algemeen",11,NULL,|,32768,70148
+99234,NULL,"Oplegging, Algemeen, staal, STP 01-04","Oplegging, Algemeen",5405,NULL,NULL,32768,89328
+99235,NULL,"Oplegging, Algemeen, staal, STP 02","Oplegging, Algemeen",5405,NULL,NULL,32768,89328
+99236,NULL,"Oplegging, Algemeen, staal/teflon/rubber, STP 01-04","Oplegging, Algemeen",5405,NULL,NULL,32768,89328
+99200,NULL,"Oplegging, Algemeen, staal, STP 01-04","Oplegging, Algemeen",5404,NULL,NULL,32768,89319
+99201,NULL,"Oplegging, Algemeen, staal, STP 02","Oplegging, Algemeen",5404,NULL,NULL,32768,89319
+99202,NULL,"Oplegging, Algemeen, staal, STP 03","Oplegging, Algemeen",5404,NULL,NULL,32768,89319
+99203,NULL,"Oplegging, Algemeen, staal/teflon/rubber, STP 01-04","Oplegging, Algemeen",5404,NULL,NULL,32768,89319
+78925,NULL,Opnemer,Opnamemedium,11,NULL,|,32768,70165
+78926,NULL,"Over- en onderdrukinstallatie, Algemeen","Over- en onderdrukinstallatie, Algemeen",11,NULL,|,32768,70165
+71496,NULL,Overspanningbeveiliging,Overspanningbeveiliging,11,NULL,|,32768,69343
+74019,NULL,Paal,Paal,11,NULL,|,32768,69608
+74222,NULL,Paal,Paal,11,NULL,|,32768,69635
+79658,NULL,Paal,Paal,11,NULL,|,32768,70240
+80459,NULL,Paal,Paal,11,NULL,|,32768,70348
+80460,NULL,Paalbeugel,Paalbeugel,11,NULL,|,32768,70348
+79659,NULL,Paalbeugel,Paalbeugel,11,NULL,|,32768,70240
+80630,NULL,Pijler,Pijler,11,NULL,|,32768,70365
+75286,NULL,Pijler,Pijler,11,NULL,|,32768,69726
+81038,NULL,Poer,Poer,11,NULL,|,32768,70439
+79132,NULL,Pomp,Pomp,11,NULL,|,32768,70188
+73436,NULL,Pomp,Pomp,11,NULL,|,32768,69546
+74554,NULL,Pomp,Pomp,11,NULL,|,32768,69675
+72853,NULL,Pomp,Pomp,11,NULL,|,32768,69490
+79131,NULL,Niveaumeting,"Pompinstallatie, Algemeen",11,NULL,|,32768,70188
+79133,NULL,"Pompinstallatie, Algemeen","Pompinstallatie, Algemeen",11,NULL,|,32768,70188
+71696,NULL,Ponton,"Ponton, Algemeen",11,NULL,|,32768,69363
+79382,NULL,"Portaal, Algemeen","Portaal, Algemeen",11,NULL,|,32768,70212
+79383,NULL,Staalconstructie,"Portaal, Algemeen",11,NULL,|,32768,70212
+267245,NULL,"Portaal, Algemeen","Portaal, Algemeen",5405,NULL,NULL,32768,95493
+267246,NULL,Staalconstructie,"Portaal, Algemeen",5405,NULL,NULL,32768,95493
+267240,NULL,"Portaal, Algemeen","Portaal, Algemeen",5404,NULL,NULL,32768,95456
+267241,NULL,Staalconstructie,"Portaal, Algemeen",5404,NULL,NULL,32768,95456
+76039,NULL,Praatpaal,Praatpaal,11,NULL,|,32768,69800
+75287,NULL,Pyloon,Pyloon,11,NULL,|,32768,69726
+79134,NULL,Railgeleiding,Railgeleiding,11,NULL,|,32768,70188
+80982,NULL,Rails in verharding,Rails in verharding,11,NULL,|,32768,70422
+80983,NULL,Rails vrijliggend,Rails vrijliggend,11,NULL,|,32768,70422
+77003,NULL,Railsysteem,Railsysteem,11,NULL,|,32768,69886
+78355,NULL,Railsysteem,Railsysteem,11,NULL,|,32768,70066
+80132,NULL,Randelement,Randelement,11,NULL,|,32768,70292
+79898,NULL,Rem,Rem,11,NULL,|,32768,70271
+79795,NULL,"Rijvloer, Algemeen",Rijdek,11,NULL,|,32768,70254
+75288,NULL,Rijdek,Rijdek,11,NULL,|,32768,69726
+79899,NULL,"Roltrapinstallatie, Algemeen","Roltrapinstallatie, Algemeen",11,NULL,|,32768,70271
+80133,NULL,Rooster,Rooster,11,NULL,|,32768,70292
+76575,NULL,Samengestelde damwand,Samengestelde damwand,11,NULL,|,32768,69865
+80134,NULL,"Schampkant, Algemeen","Schampkant, Algemeen",11,NULL,|,32768,70292
+80135,NULL,Schampstrook,Schampstrook,11,NULL,|,32768,70292
+74223,NULL,Schampstrook,Schampstrook,11,NULL,|,32768,69635
+80255,NULL,Scheepvaartsein,Scheepvaartsein,11,NULL,|,32768,70313
+80256,NULL,"Scheepverkeersbeseining, Algemeen","Scheepverkeersbeseining, Algemeen",11,NULL,|,32768,70313
+80461,NULL,Schoor,Schoor,11,NULL,|,32768,70348
+74224,NULL,Schrikhek,Schrikhek,11,NULL,|,32768,69635
+72087,NULL,Schrikhek,Schrikhek,11,NULL,|,32768,69404
+72503,NULL,Sensor,Sensor,11,NULL,|,32768,69449
+78927,NULL,Sensor,Sensor,11,NULL,|,32768,70165
+78690,NULL,Sensor,Sensor,11,NULL,|,32768,70128
+82053,NULL,Aslast sensor,Sensor,11,NULL,|,32768,70703
+82049,NULL,Server,Server,11,NULL,|,32768,70703
+78691,NULL,Server,Server,11,NULL,|,32768,70128
+77908,NULL,Server,Server,11,NULL,|,32768,70021
+73763,NULL,Server,Server,11,NULL,|,32768,69588
+76220,NULL,Server,Server,11,NULL,|,32768,69824
+72392,NULL,Signaalkabel,Signaalkabel,11,NULL,|,32768,69428
+76576,NULL,Sloof,Sloof,11,NULL,|,32768,69865
+75659,NULL,Smeersysteem,Smeersysteem,11,NULL,|,32768,69747
+74352,NULL,Sproei-installatie beplanting,Sproei-installatie beplanting,11,NULL,|,32768,69655
+80257,NULL,Spuisein,Spuisein,11,NULL,|,32768,70313
+77299,NULL,Staalkabel (hefkabel),Staalkabel,11,NULL,|,32768,69951
+80631,NULL,"Steunpunt, Algemeen","Steunpunt, Algemeen",11,NULL,|,32768,70365
+72646,NULL,Stortebed,Stortebed,11,NULL,|,32768,69470
+72647,NULL,Stroombreker,Stroombreker,11,NULL,|,32768,69470
+79900,NULL,Tandwiel,Tandwiel,11,NULL,|,32768,70271
+79135,NULL,Tank,Tank,11,NULL,|,32768,70188
+72855,NULL,Tank,Tank,11,NULL,|,32768,69490
+71697,NULL,Trap,Trap,11,NULL,|,32768,69363
+79660,NULL,Trap,Trap,11,NULL,|,32768,70240
+82307,NULL,Trap,Trap,11,NULL,|,32768,70753
+99237,NULL,"Trap, beton, STP 01+04",Trap,5405,NULL,NULL,32768,89329
+99204,NULL,"Trap, beton, STP 01+04",Trap,5404,NULL,NULL,32768,89320
+604720,NULL,Trap,Trap,11,NULL,NULL,32768,70365
+79901,NULL,Traptrede,Traptrede,11,NULL,|,32768,70271
+74020,NULL,Trekpalen,Trekpalen,11,NULL,|,32768,69608
+75790,NULL,Triangel,Triangel,11,NULL,|,32768,69772
+75289,NULL,Tuiconstructie,Tuiconstructie,11,NULL,|,32768,69726
+99219,NULL,"Tuiconstructie, staal, OVSP 01-04",Tuiconstructie,5404,NULL,NULL,32768,89325
+99253,NULL,"Tuiconstructie, staal, OVSP 01-04",Tuiconstructie,5405,NULL,NULL,32768,89334
+81039,NULL,Staalconstructie,"Uithouder, Algemeen",11,NULL,|,32768,70439
+81040,NULL,"Uithouder, Algemeen","Uithouder, Algemeen",11,NULL,|,32768,70439
+71698,NULL,Valreep,Valreep,11,NULL,|,32768,69363
+78928,NULL,Ventilator,Ventilator,11,NULL,|,32768,70165
+81128,NULL,"Verankering, Algemeen","Verankering, Algemeen",11,NULL,|,32768,70460
+99257,NULL,"Verankering, Algemeen, staal, STP 02+03","Verankering, Algemeen",5405,NULL,NULL,32768,89334
+99223,NULL,"Verankering, Algemeen, staal, STP 02+03","Verankering, Algemeen",5404,NULL,NULL,32768,89325
+71497,NULL,Verbinding,Verbinding,11,NULL,|,32768,69343
+79127,NULL,Dieselmotor,Verbrandingsmotor,11,NULL,|,32768,70188
+72088,NULL,Verkeersbord,Verkeersbord,11,NULL,|,32768,69404
+72089,NULL,Waarschuwingsbord,Verkeersbord,11,NULL,|,32768,69404
+81658,NULL,"Verkeersregelinstallatie (VRI), Algemeen","Verkeersregelinstallatie (VRI), Algemeen",11,NULL,|,32768,70624
+604725,NULL,"Verstijving, OVSP 01-04",Versterker,5405,NULL,NULL,32768,89334
+604726,NULL,"Verstijving, STP 02+03",Versterker,5405,NULL,NULL,32768,89334
+75290,NULL,Verticaal (vakwerkligger),Verticaal (vakwerkligger),11,NULL,|,32768,69726
+72856,NULL,Verwarmingslint,Verwarmingslint,11,NULL,|,32768,69490
+72857,NULL,Verwerkingseenheid,Verwerkingseenheid,11,NULL,|,32768,69490
+73764,NULL,Verwerkingseenheid,Verwerkingseenheid,11,NULL,|,32768,69588
+76040,NULL,Verwerkingseenheid,Verwerkingseenheid,11,NULL,|,32768,69800
+82050,NULL,Verwerkingseenheid,Verwerkingseenheid,11,NULL,|,32768,70703
+81659,NULL,Verwerkingseenheid,Verwerkingseenheid,11,NULL,|,32768,70624
+78356,NULL,Verwerkingseenheid,Verwerkingseenheid,11,NULL,|,32768,70066
+99205,NULL,"Vleugelwand, beton, STP 01+04",Vleugelwand,5404,NULL,NULL,32768,89320
+99238,NULL,"Vleugelwand, beton, STP 01+04",Vleugelwand,5405,NULL,NULL,32768,89329
+76577,NULL,Vleugelwand,Vleugelwand,11,NULL,|,32768,69865
+604721,NULL,Vleugelwand,Vleugelwand,11,NULL,NULL,32768,70365
+604722,NULL,Vloer,Vloer,11,NULL,NULL,32768,70365
+74021,NULL,Vloer,Vloer,11,NULL,|,32768,69608
+72648,NULL,Vloer,Vloer,11,NULL,|,32768,69470
+99239,NULL,"Vloer, beton, STP 01+04",Vloer,5405,NULL,NULL,32768,89329
+99206,NULL,"Vloer, beton, STP 01+04",Vloer,5404,NULL,NULL,32768,89320
+99211,NULL,"Voegovergang, Algemeen, staal, STP 01+04","Voegovergang, Algemeen",5404,NULL,NULL,32768,89321
+99245,NULL,"Voegovergang, Algemeen, staal, STP 01+04","Voegovergang, Algemeen",5405,NULL,NULL,32768,89330
+81875,NULL,"Voegovergang, Algemeen","Voegovergang, Algemeen",11,NULL,|,32768,70648
+74558,NULL,Wadi,Wadi,11,NULL,|,32768,69675
+75291,NULL,Wand,Wand,11,NULL,|,32768,69726
+76578,NULL,Wand,Wand,11,NULL,|,32768,69865
+82735,NULL,Wand,Wand,11,NULL,|,32768,70825
+99207,NULL,"Wand, beton, STP 01+04",Wand,5404,NULL,NULL,32768,89320
+99240,NULL,"Wand, beton, STP 01+04",Wand,5405,NULL,NULL,32768,89329
+99241,NULL,"Wand, metselwerk, STP 04",Wand,5405,NULL,NULL,32768,89329
+604723,NULL,Wand,Wand,11,NULL,NULL,32768,70365
+76579,NULL,Waterkerende constructie,Waterkerende constructie,11,NULL,|,32768,69865
+81985,NULL,"Wegmarkering, Algemeen","Wegmarkering, Algemeen",11,NULL,|,32768,70683
+82051,NULL,"Weigh In Motion, Algemeen","Weigh In Motion, Algemeen",11,NULL,|,32768,70703
+75292,NULL,Windverband,Windverband,11,NULL,|,32768,69726
+71699,NULL,Wrijfgording,Wrijfgording,11,NULL,|,32768,69363
+80462,NULL,Wrijfgording,Wrijfgording,11,NULL,|,32768,70348
+79661,NULL,Wrijfgording,Wrijfgording,11,NULL,|,32768,70240
+79662,NULL,Wrijfschort,Wrijfschort,11,NULL,|,32768,70240
+80463,NULL,Wrijfschort,Wrijfschort,11,NULL,|,32768,70348
+71700,NULL,Wrijfschort,Wrijfschort,11,NULL,|,32768,69363
+71701,NULL,Wrijfstijl,Wrijfstijl,11,NULL,|,32768,69363
+80464,NULL,Wrijfstijl,Wrijfstijl,11,NULL,|,32768,70348
+79663,NULL,Wrijfstijl,Wrijfstijl,11,NULL,|,32768,70240
+76580,NULL,Wrijvingswerk,Wrijvingswerk,11,NULL,|,32768,69865
+73765,NULL,Zonnepaneel,Zonnepaneel,11,NULL,|,32768,69588
+72090,NULL,Zonnepaneel,Zonnepaneel,11,NULL,|,32768,69404
+73560,NULL,Zonnepaneel,Zonnepaneel,11,NULL,|,32768,69567
+80258,NULL,Zonnepaneel,Zonnepaneel,11,NULL,|,32768,70313
+71702,NULL,Steiger,Steiger,11,NULL,|,32768,69363
+72393,NULL,Installatiekabel,Installatiekabel,11,NULL,|,32768,69428
+72504,NULL,Lichtgroepenkast,Lichtgroepenkast,11,NULL,|,32768,69449
+72858,NULL,Drukluchtschuiminstallatie (DLS),"Drukluchtschuiminstallatie (DLS), Algemeen",11,NULL,|,32768,69490
+73561,NULL,Waterturbine,Turbine,11,NULL,|,32768,69567
+73559,NULL,Windmolen,Turbine,11,NULL,|,32768,69567
+82052,NULL,Infraroodlamp,Infraroodlamp,11,NULL,|,32768,70703
+75293,NULL,Kapiteel,Kapiteel,11,NULL,|,32768,69726
+75294,NULL,Kolom,Kolom,11,NULL,|,32768,69726
+99209,NULL,"Kolom, beton, STP 01-04",Kolom,5404,NULL,NULL,32768,89320
+99243,NULL,"Kolom, beton, STP 01-04",Kolom,5405,NULL,NULL,32768,89329
+604718,NULL,Kolom,Kolom,11,NULL,NULL,32768,70365
+75295,NULL,Plaatveld,Plaatveld,11,NULL,|,32768,69726
+75296,NULL,Voegloze overgang,Voegloze overgang,11,NULL,|,32768,69726
+76041,NULL,Noodtelefoon,Noodtelefoon,11,NULL,|,32768,69800
+99244,NULL,"Oplegblok, beton, STP 02+03",Oplegblok,5405,NULL,NULL,32768,89329
+99210,NULL,"Oplegblok, beton, STP 02+03",Oplegblok,5404,NULL,NULL,32768,89320
+78816,NULL,Oplegblok,Oplegblok,11,NULL,|,32768,70148
+604719,NULL,Oplegblok,Oplegblok,11,NULL,NULL,32768,70365
+78817,NULL,Oplegbalk,Oplegbalk,11,NULL,|,32768,70148
+78818,NULL,Oplegstoel,Oplegstoel,11,NULL,|,32768,70148
+78819,NULL,Oplegtafel,Oplegtafel,11,NULL,|,32768,70148
+81876,NULL,Rij-ijzer,Rij-ijzer,11,NULL,|,32768,70648
+71703,NULL,Meerboei,Meerboei,11,NULL,|,32768,69363
+82308,NULL,"Talud, Algemeen","Talud, Algemeen",11,NULL,|,32768,70753
+99233,NULL,"Talud, Algemeen, -, STP 01+04","Talud, Algemeen",5405,NULL,NULL,32768,89327
+99199,NULL,"Talud, Algemeen, -, STP 01+04","Talud, Algemeen",5404,NULL,NULL,32768,89318
+74225,NULL,Trottoirband,Trottoirband,11,NULL,|,32768,69635
+79384,NULL,"Boom, Algemeen","Boom, Algemeen",11,NULL,|,32768,70212
+82737,NULL,Faunaopening,Faunaopening,11,NULL,|,32768,70825
+73438,NULL,Grindkoffer,Grindkoffer,11,NULL,|,32768,69546
+72082,NULL,Campagnebord,Informatiebord,11,NULL,|,32768,69404
+72091,NULL,Informatiebord,Informatiebord,11,NULL,|,32768,69404
+72092,NULL,Reclamebord,Informatiebord,11,NULL,|,32768,69404
+79385,NULL,Loopstrook,Loopstrook,11,NULL,|,32768,70212
+267244,NULL,Loopstrook,Loopstrook,5405,NULL,NULL,32768,95493
+267239,NULL,Loopstrook,Loopstrook,5404,NULL,NULL,32768,95456
+72093,NULL,Straatnaambord,Straatnaambord,11,NULL,|,32768,69404
+82738,NULL,Traliedeur,Traliedeur,11,NULL,|,32768,70825
+82739,NULL,"Vleermuiskelder, Algemeen","Vleermuiskelder, Algemeen",11,NULL,|,32768,70825
+82740,NULL,Wegkruipplek,Wegkruipplek,11,NULL,|,32768,70825
+99251,NULL,"beschermconstructie, staal, OVSP 02-03",Beschermconstructie,5405,NULL,NULL,32768,89334
+99252,NULL,"beschermconstructie, staal, STP 01+04",Beschermconstructie,5405,NULL,NULL,32768,89334
+99217,NULL,"beschermconstructie, staal, OVSP 02-03",Beschermconstructie,5404,NULL,NULL,32768,89325
+99218,NULL,"beschermconstructie, staal, STP 01+04",Beschermconstructie,5404,NULL,NULL,32768,89325
+99224,NULL,"verstijving, staal, OVSP 01-04","Hoofddraagconstructie, Algemeen",5404,NULL,NULL,32768,89325
+99225,NULL,"verstijving, staal, STP 02+03","Hoofddraagconstructie, Algemeen",5404,NULL,NULL,32768,89325
+99258,NULL,"verstijving, staal, OVSP 01-04","Hoofddraagconstructie, Algemeen",5405,NULL,NULL,32768,89334
+99259,NULL,"verstijving, staal, STP 02+03","Hoofddraagconstructie, Algemeen",5405,NULL,NULL,32768,89334
+78352,NULL,Koelinstallatie,"Klimaatinstallatie, algemeen",11,NULL,|,32768,70066
+79888,NULL,Afwatering riolering,Lijnafwatering,11,NULL,|,32768,70271
+80374,NULL,"Slijtlaag, Algemeen",Beschermlaag,11,NULL,|,32768,70330
+82046,NULL,Camera,"Camera, vast",11,NULL,|,32768,70703
+76571,NULL,Kathodische bescherming,"Kathodische bescherminstallatie, Algemeen",11,NULL,|,32768,69865
+72854,NULL,Sprinkler,Sproeikop,11,NULL,|,32768,69490
+80454,NULL,Drijfkist,Kist,11,NULL,|,32768,70348
+79653,NULL,Drijfkist,Kist,11,NULL,|,32768,70240
+81490,NULL,Asfaltverharding,"Deklaag, dicht",11,NULL,|,32768,70582
+81199,NULL,Asfaltverharding,"Deklaag, dicht",11,NULL,|,32768,70481
+81364,NULL,Asfaltverharding,"Deklaag, dicht",11,NULL,|,32768,70540
+81301,NULL,Asfaltverharding,"Deklaag, dicht",11,NULL,|,32768,70519
+81553,NULL,Asfaltverharding,"Deklaag, dicht",11,NULL,|,32768,70603
+81427,NULL,Asfaltverharding,"Deklaag, dicht",11,NULL,|,32768,70561
+81238,NULL,Asfaltverharding,"Deklaag, dicht",11,NULL,|,32768,70498
+604727,NULL,Asfaltverharding,"Deklaag, dicht",5405,NULL,NULL,32768,89335
+73757,NULL,"Eindschakelaar (inductief, Tacho)",Schakelaar,11,NULL,|,32768,69588
+77194,NULL,"Leuning, Algemeen",Leuning,11,NULL,|,32768,69930
+99248,NULL,"Leuning, Algemeen, staal, ZB 04",Leuning,5405,NULL,NULL,32768,89332
+99214,NULL,"Leuning, Algemeen, staal, ZB 01",Leuning,5404,NULL,NULL,32768,89323
