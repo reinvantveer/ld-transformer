@@ -1,0 +1,14 @@
+{
+  "json-ld": {
+    "mime": "application/ld+json",
+    "lineSeparator": ",\n",
+    "header": "[",
+    "footer": "]"
+  },
+  "n-quads": {
+    "mime": "application/nquads",
+    "lineSeparator": "",
+    "header": "",
+    "footer": ""
+  }
+}

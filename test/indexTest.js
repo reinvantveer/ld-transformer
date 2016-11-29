@@ -4,7 +4,7 @@ const transformer = require('../lib/transformer');
 const chai = require('chai');
 chai.should();
 
-describe('The rdf transformer', function() {
+describe('The rdf transformer', () => {
   it('reads the test csv', () => {
     return transformer.csvParse('mockups/test.csv')
       .then(data => data.should.deep.equal([
@@ -95,7 +95,7 @@ describe('The rdf transformer', function() {
       }
     };
 
-    return transformer.transform(testData, context)
+    return transformer.transform(testData, context, 'n-quads')
       .then(rdf => rdf.join('').should.deep.equal(
         '<http://testme/data1> <http://column1.org/> "data1" .\n' +
         '<http://testme/data1> <http://column2.org/> "data2" .\n' +
@@ -103,6 +103,27 @@ describe('The rdf transformer', function() {
         '<http://testme/data3> <http://column1.org/> "data3" .\n' +
         '<http://testme/data3> <http://column2.org/> "data4" .\n' +
         '<http://testme/data3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://test/testobject> .\n'
+      ));
+  });
+
+  it('serializes json-ld', () => {
+    const testData = [
+      { column1: 'data1', column2: 'data2' },
+      { column1: 'data3', column2: 'data4' }
+    ];
+    const context = {
+      '@subject': 'column1',
+      '@type': 'http://test/testobject',
+      '@context': {
+        '@base': 'http://testme/',
+        column1: 'http://column1.org/',
+        column2: 'http://column2.org/'
+      }
+    };
+
+    return transformer.transform(testData, context, 'json-ld')
+      .then(rdf => rdf.join(',\n').should.deep.equal('{"column1":"data1","column2":"data2","@context":{"@base":"http://testme/","column1":"http://column1.org/","column2":"http://column2.org/"},"@type":"http://test/testobject","@id":"data1"},\n' +
+        '{"column1":"data3","column2":"data4","@context":{"@base":"http://testme/","column1":"http://column1.org/","column2":"http://column2.org/"},"@type":"http://test/testobject","@id":"data3"}'
       ));
   });
 });
