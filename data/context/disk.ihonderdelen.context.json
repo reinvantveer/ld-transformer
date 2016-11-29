@@ -1,0 +1,18 @@
+{
+  "@subject": "beheerobjectid",
+  "@type": "http://rws.org/disk/id/ihonderdeel",
+  "@context": {
+    "@base": "http://rws.org/disk/ihonderdeel/id/",
+    "rws": "http://rws.org/disk/def/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ihonderdeelid": "dct:identifier",
+    "locatie": "rws:locatie",
+    "bpscoderingid": "rws:bpsCoderingIdentificatie",
+    "objecttype": ["rws:beheerObjecttype", "rdfs:label", "rdf:type"],
+    "hoeveelheid": "rws:hoeveelheid",
+    "eenheid": "rws:eenheid",
+    "materiaal": "rws:materiaal",
+    "beheerobjectid": "dct:identifier",
+  }
+}

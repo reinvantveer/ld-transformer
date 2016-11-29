@@ -1,0 +1,62 @@
+<http://rws.org/disk/beheerobject/id/4978> <dct:description> "Zuidelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
+<http://rws.org/disk/beheerobject/id/4978> <dct:identifier> "4978" .
+<http://rws.org/disk/beheerobject/id/4978> <dct:modified> "2014-07-25 10:52:58.000" .
+<http://rws.org/disk/beheerobject/id/4978> <http://rws.org/disk/def/aard> "Droog" .
+<http://rws.org/disk/beheerobject/id/4978> <http://rws.org/disk/def/beheercode> "31H-005-01" .
+<http://rws.org/disk/beheerobject/id/4978> <http://rws.org/disk/def/beheerder> "RWS MN / MN District Zuid" .
+<http://rws.org/disk/beheerobject/id/4978> <http://rws.org/disk/def/beheergebied> "RWS MN / MN District Zuid" .
+<http://rws.org/disk/beheerobject/id/4978> <http://rws.org/disk/def/bpsCoderingIdentificatie> "4269" .
+<http://rws.org/disk/beheerobject/id/4978> <http://rws.org/disk/def/classificatie> "Staal" .
+<http://rws.org/disk/beheerobject/id/4978> <http://rws.org/disk/def/complexIdentificatie> "2382" .
+<http://rws.org/disk/beheerobject/id/4978> <http://rws.org/disk/def/eigenaar> "RWS MN / MN District Zuid" .
+<http://rws.org/disk/beheerobject/id/4978> <http://rws.org/disk/def/gemeente> "Utrecht (gem.)" .
+<http://rws.org/disk/beheerobject/id/4978> <http://rws.org/disk/def/id_miok> "13924" .
+<http://rws.org/disk/beheerobject/id/4978> <http://rws.org/disk/def/inspecteur> "RWS GPO / RPC Noord-West" .
+<http://rws.org/disk/beheerobject/id/4978> <http://rws.org/disk/def/instantieId> "1054" .
+<http://rws.org/disk/beheerobject/id/4978> <http://rws.org/disk/def/isInactive> "0" .
+<http://rws.org/disk/beheerobject/id/4978> <http://rws.org/disk/def/netwerk> "HWN       " .
+<http://rws.org/disk/beheerobject/id/4978> <http://rws.org/disk/def/objecttype> "Bruggen (vast)" .
+<http://rws.org/disk/beheerobject/id/4978> <http://rws.org/disk/def/ondplicht> "RWS MN / MN District Zuid" .
+<http://rws.org/disk/beheerobject/id/4978> <http://rws.org/disk/def/provincie> "Utrecht" .
+<http://rws.org/disk/beheerobject/id/4978> <http://rws.org/disk/def/rdx> "135,143" .
+<http://rws.org/disk/beheerobject/id/4978> <http://rws.org/disk/def/rdy> "452,51" .
+<http://rws.org/disk/beheerobject/id/4978> <http://rws.org/disk/def/relatieTotWeg> "in RW     " .
+<http://rws.org/disk/beheerobject/id/4978> <http://rws.org/disk/def/route> "A12" .
+<http://rws.org/disk/beheerobject/id/4978> <http://rws.org/disk/def/status> "in gebruik" .
+<http://rws.org/disk/beheerobject/id/4978> <http://rws.org/disk/def/stichtingsjaar> "1971" .
+<http://rws.org/disk/beheerobject/id/4978> <http://rws.org/disk/def/timestamp> "0x00000000007975F9" .
+<http://rws.org/disk/beheerobject/id/4978> <http://rws.org/disk/def/traject> "30" .
+<http://rws.org/disk/beheerobject/id/4978> <http://rws.org/disk/def/useridModified> "402" .
+<http://rws.org/disk/beheerobject/id/4978> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk/id/beheerobject> .
+<http://rws.org/disk/beheerobject/id/4978> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug zuid" .
+<http://rws.org/disk/beheerobject/id/4979> <dct:description> "Noordelijke brug over het Amsterdam-Rijnkanaal nabij Utrecht" .
+<http://rws.org/disk/beheerobject/id/4979> <dct:identifier> "4979" .
+<http://rws.org/disk/beheerobject/id/4979> <dct:modified> "2014-07-25 10:53:13.000" .
+<http://rws.org/disk/beheerobject/id/4979> <http://rws.org/disk/def/aard> "Droog" .
+<http://rws.org/disk/beheerobject/id/4979> <http://rws.org/disk/def/beheercode> "31H-005-02" .
+<http://rws.org/disk/beheerobject/id/4979> <http://rws.org/disk/def/beheerder> "RWS MN / MN District Zuid" .
+<http://rws.org/disk/beheerobject/id/4979> <http://rws.org/disk/def/beheergebied> "RWS MN / MN District Zuid" .
+<http://rws.org/disk/beheerobject/id/4979> <http://rws.org/disk/def/bpsCoderingIdentificatie> "4269" .
+<http://rws.org/disk/beheerobject/id/4979> <http://rws.org/disk/def/classificatie> "Staal" .
+<http://rws.org/disk/beheerobject/id/4979> <http://rws.org/disk/def/complexIdentificatie> "2382" .
+<http://rws.org/disk/beheerobject/id/4979> <http://rws.org/disk/def/eigenaar> "RWS MN / MN District Zuid" .
+<http://rws.org/disk/beheerobject/id/4979> <http://rws.org/disk/def/gemeente> "Utrecht (gem.)" .
+<http://rws.org/disk/beheerobject/id/4979> <http://rws.org/disk/def/id_miok> "13925" .
+<http://rws.org/disk/beheerobject/id/4979> <http://rws.org/disk/def/inspecteur> "RWS GPO / RPC Noord-West" .
+<http://rws.org/disk/beheerobject/id/4979> <http://rws.org/disk/def/instantieId> "1054" .
+<http://rws.org/disk/beheerobject/id/4979> <http://rws.org/disk/def/isInactive> "0" .
+<http://rws.org/disk/beheerobject/id/4979> <http://rws.org/disk/def/netwerk> "HWN       " .
+<http://rws.org/disk/beheerobject/id/4979> <http://rws.org/disk/def/objecttype> "Bruggen (vast)" .
+<http://rws.org/disk/beheerobject/id/4979> <http://rws.org/disk/def/ondplicht> "RWS MN / MN District Zuid" .
+<http://rws.org/disk/beheerobject/id/4979> <http://rws.org/disk/def/provincie> "Utrecht" .
+<http://rws.org/disk/beheerobject/id/4979> <http://rws.org/disk/def/rdx> "135,121" .
+<http://rws.org/disk/beheerobject/id/4979> <http://rws.org/disk/def/rdy> "452,549" .
+<http://rws.org/disk/beheerobject/id/4979> <http://rws.org/disk/def/relatieTotWeg> "in RW     " .
+<http://rws.org/disk/beheerobject/id/4979> <http://rws.org/disk/def/route> "A12" .
+<http://rws.org/disk/beheerobject/id/4979> <http://rws.org/disk/def/status> "in gebruik" .
+<http://rws.org/disk/beheerobject/id/4979> <http://rws.org/disk/def/stichtingsjaar> "1976" .
+<http://rws.org/disk/beheerobject/id/4979> <http://rws.org/disk/def/timestamp> "0x00000000007975FA" .
+<http://rws.org/disk/beheerobject/id/4979> <http://rws.org/disk/def/traject> "30" .
+<http://rws.org/disk/beheerobject/id/4979> <http://rws.org/disk/def/useridModified> "402" .
+<http://rws.org/disk/beheerobject/id/4979> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rws.org/disk/id/beheerobject> .
+<http://rws.org/disk/beheerobject/id/4979> <http://www.w3.org/2000/01/rdf-schema#label> "Galecopperbrug noord" .
