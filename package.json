@@ -11,6 +11,7 @@
   "dependencies": {
     "bluebird": "^3.4.6",
     "csv": "^1.1.0",
+    "file": "^0.2.2",
     "generate-schema": "^2.3.1",
     "jsonld": "^0.4.11",
     "lodash": "^4.16.4",
