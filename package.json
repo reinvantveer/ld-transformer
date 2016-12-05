@@ -1,7 +1,7 @@
 {
-  "name": "rws-l3d",
-  "version": "1.0.0",
-  "description": "Linked Data conversion script for Rijkswaterstaat data",
+  "name": "csv-ld",
+  "version": "1.0.1",
+  "description": "CSV to Linked Data conversion script",
   "main": "index.js",
   "scripts": {
     "test": "istanbul cover _mocha -- --recursive -R spec test"
@@ -11,6 +11,7 @@
   "dependencies": {
     "bluebird": "^3.4.6",
     "csv": "^1.1.0",
+    "generate-schema": "^2.3.1",
     "jsonld": "^0.4.11",
     "lodash": "^4.16.4",
     "yargs": "^6.0.0"

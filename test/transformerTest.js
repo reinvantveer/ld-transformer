@@ -1,16 +1,38 @@
-'use strict';
 const transformer = require('../lib/transformer');
-
 const chai = require('chai');
+
 chai.should();
 
 describe('The rdf transformer', () => {
   it('reads the test csv', () => {
-    return transformer.csvParse('mockups/test.csv')
+    return transformer.csvParse('test/mockups/test.csv')
       .then(data => data.should.deep.equal([
         { column1: 'data1', column2: 'data2' },
         { column1: 'data3', column2: 'data4' }
       ]));
+  });
+
+  it('generates a json schema for the csv', () => {
+    return transformer.csv2jsonSchema('test/mockups/test.csv')
+      .then(schema => schema.should.deep.equal({
+        $schema: 'http://json-schema.org/draft-04/schema#',
+        items: {
+          properties: {
+            column1: {
+              type: 'string'
+            },
+            column2: {
+              type: 'string'
+            }
+          },
+          required: [
+            'column1',
+            'column2'
+          ],
+          type: 'object'
+        },
+        type: 'array'
+      }));
   });
 
   describe('context checker', () => {
