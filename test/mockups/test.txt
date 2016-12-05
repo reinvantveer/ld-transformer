@@ -1,0 +1,1 @@
+This file should be filtered out during the summarize folder test, because it is not a csv.
