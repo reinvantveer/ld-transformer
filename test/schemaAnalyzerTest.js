@@ -32,30 +32,32 @@ describe('The schema analyzer', () => {
   it('generates a hash of the schema', () => {
     return analyzer.createSchemaHash('test/mockups/test.csv')
       .then(hash => hash.should.deep.equal({
-        file: 'test/mockups/test.csv',
+        files: ['test/mockups/test.csv'],
         hash: 'e52f6e686d7d210e81416af42c98e975'
       }));
   });
 
   it('generates a hash of an identical file', () => {
-    return analyzer.createSchemaHash('test/mockups/subfolder/test2.csv')
+    return analyzer.createSchemaHash('test/mockups/subfoldertest/subfolder/test2.csv')
       .then(hash => hash.should.deep.equal({
-        file: 'test/mockups/subfolder/test2.csv',
+        files: ['test/mockups/subfoldertest/subfolder/test2.csv'],
         hash: 'e52f6e686d7d210e81416af42c98e975'
       }));
   });
 
   it('summarizes the schemas of a particular folder and its subfolders', () => {
-    return analyzer.analyzeFolderRecurse('test/mockups/', '.csv')
+    return analyzer.analyzeFolderRecurse('test/mockups/subfoldertest/', '.csv')
       .then(summary => {
-        return summary.sort().should.deep.equal({
-          'a066630197a8749359b068a90ee80fa3': {
-            files: ['test/mockups/rd.csv']
+        return summary.sort().should.deep.equal([
+          {
+            hash: 'a066630197a8749359b068a90ee80fa3',
+            files: ['test/mockups/subfoldertest/rd.csv']
           },
-          'e52f6e686d7d210e81416af42c98e975': {
-            files: ['test/mockups/test.csv', 'test/subfolder/test2.csv']
+          {
+            hash: 'e52f6e686d7d210e81416af42c98e975',
+            files: ['test/mockups/subfoldertest/test.csv', 'test/mockups/subfoldertest/subfolder/test2.csv']
           }
-        });
+        ]);
       });
   });
 });
