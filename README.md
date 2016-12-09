@@ -27,4 +27,8 @@ module.exports = somevar => {
 - [X] Output JSON-LD
 - [X] Create md5 schema hashes from csv -> json schema
 - [X] Strip `required` fields from json schema (schemas should be the same regardless their 0..1 or 1..1 property cardinalities)
-- [ ] Create plugin system for creating keys, mapping values and nesting objects
+- [X] Plugin system 
+- [X] Plugin for reprojecting NL RD WKT to WGS84
+- [ ] Plugin for generic WKT reprojection from/to any CRS 
+- [ ] Plugin for prefixing values to URIs
+- [ ] Plugin for nesting keys and objects
