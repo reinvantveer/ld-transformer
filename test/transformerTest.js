@@ -4,6 +4,26 @@ const chai = require('chai');
 chai.should();
 
 describe('The rdf transformer', () => {
+  describe('plugin loader', () => {
+    let plugins;
+
+    it('loads the plugin from the dummy plugin folder', () => {
+      plugins = transformer.loadPlugins(`${__dirname}/mockups/dummyPluginTest/`);
+      Object.keys(plugins).length.should.equal(1);
+    });
+
+    it('tests the plugins', () => {
+      plugins.dummyPlugin(true).should.eventually.equal(true);
+      return plugins.dummyPlugin(false).should.be.rejected;
+    });
+
+    it('rejects a plugin that is no thenable', () => {
+      (() => {
+        transformer.loadPlugins(`${__dirname}/mockups/noThenablePluginTest/`);
+      }).should.throw(Error, `Plugin ${__dirname}/mockups/noThenablePluginTest//faultyPlugin.js does not return a Promise.`);
+    });
+  });
+
   describe('context checker', () => {
     it('throws on a missing context key', () => {
       const testData = [{ column1: 'data1', column2: 'data2' }];

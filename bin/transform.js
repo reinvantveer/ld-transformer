@@ -9,6 +9,7 @@ const transformer = require('../lib/transformer.js');
 const fs = require('fs');
 
 const formats = require('../formats.json');
+const plugins = transformer.loadPlugins('../lib/plugins/');
 
 function run(args) {
   const supportedFormats = ['json-ld', 'n-quads'];

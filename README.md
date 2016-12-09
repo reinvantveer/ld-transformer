@@ -9,10 +9,22 @@ Its use is intended as a library (its usage is to be read from the tests for now
 Clone the repository and run `npm install`. Then, run:
 `npm start -i [inputdir] -o [outputdir] -f [n-triples or json-ld]
 
+## The plugin system
+One great advantage to this transformer is that it implements a plugin system that allows pre- and post-processing of data. Using this system, data can be cleaned, transformed or mapped to a controlled vocabulary.
+
+Plugins are just exported functions. The requirements are that a plugin exports a single function, which returns a promise with the converted value that was. The second requirement is that it returns a rejected promise if the required input parameters are used in the wrong way :)
+
+So something like this (but then useful):
+```js
+module.exports = somevar => {
+  return new Promise((resolve, reject) => somevar ? resolve(true) : reject(false));
+};
+```
+
 ## Features (unchecked is TODO)
 - [X] Require all keys to be mapped to a LD property
 - [X] Output n-triples
 - [X] Output JSON-LD
 - [X] Create md5 schema hashes from csv -> json schema
-- [ ] Strip required fields from json schema (schemas are the same regardless their 0..1 or 1..1 property cardinalities)
+- [X] Strip `required` fields from json schema (schemas should be the same regardless their 0..1 or 1..1 property cardinalities)
 - [ ] Create plugin system for creating keys, mapping values and nesting objects

@@ -14,4 +14,9 @@ describe('The csv reader', () => {
         { column1: 'data3', column2: 'data4' }
       ]));
   });
+
+  it('catches parse errors', () => {
+    return csvReader.csvParse('test/mockups/faultyWKTtest/noWKT.wkt')
+      .should.be.rejectedWith(Error, 'Number of columns on line 2 does not match header');
+  });
 });
