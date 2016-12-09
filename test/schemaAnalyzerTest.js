@@ -1,8 +1,12 @@
 /**
  * Created by reinvantveer on 12/5/16.
  */
+
+'use strict';
+
 const analyzer = require('../lib/schemaAnalyzer');
 const chai = require('chai');
+
 chai.should();
 
 describe('The schema analyzer', () => {
@@ -19,21 +23,17 @@ describe('The schema analyzer', () => {
               type: 'string'
             }
           },
-          required: [
-            'column1',
-            'column2'
-          ],
           type: 'object'
         },
         type: 'array'
       }));
   });
-  
+
   it('generates a hash of the schema', () => {
     return analyzer.createSchemaHash('test/mockups/test.csv')
       .then(hash => hash.should.deep.equal({
         files: ['test/mockups/test.csv'],
-        hash: 'e52f6e686d7d210e81416af42c98e975'
+        hash: 'ece9e8a91157824de7c5a9527c322ea9'
       }));
   });
 
@@ -41,7 +41,7 @@ describe('The schema analyzer', () => {
     return analyzer.createSchemaHash('test/mockups/subfoldertest/subfolder/test2.csv')
       .then(hash => hash.should.deep.equal({
         files: ['test/mockups/subfoldertest/subfolder/test2.csv'],
-        hash: 'e52f6e686d7d210e81416af42c98e975'
+        hash: 'ece9e8a91157824de7c5a9527c322ea9'
       }));
   });
 
@@ -54,10 +54,23 @@ describe('The schema analyzer', () => {
             files: ['test/mockups/subfoldertest/rd.csv']
           },
           {
-            hash: 'e52f6e686d7d210e81416af42c98e975',
+            hash: 'ece9e8a91157824de7c5a9527c322ea9',
             files: ['test/mockups/subfoldertest/test.csv', 'test/mockups/subfoldertest/subfolder/test2.csv']
           }
         ]);
       });
+  });
+
+  it('creates identical schemas for two files, one file missing one value', () => {
+    return analyzer.analyzeFolderRecurse('test/mockups/sameSchemaTest', '.csv')
+      .then(result => result.sort().should.deep.equal([
+        {
+          files: [
+            'test/mockups/sameSchemaTest/test.csv',
+            'test/mockups/sameSchemaTest/test2.csv'
+          ],
+          hash: 'ece9e8a91157824de7c5a9527c322ea9'
+        }
+      ]));
   });
 });
