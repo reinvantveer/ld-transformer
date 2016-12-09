@@ -8,7 +8,11 @@ describe('The rdf transformer', () => {
     let plugins;
 
     it('loads the plugin from the dummy plugin folder', () => {
-      plugins = transformer.loadPlugins(`${__dirname}/mockups/dummyPluginTest/`);
+      try {
+        plugins = transformer.loadPlugins(`${__dirname}/mockups/dummyPluginTest/`);
+      } catch (e) {
+        console.warn('error', e);
+      }
       Object.keys(plugins).length.should.equal(1);
     });
 
