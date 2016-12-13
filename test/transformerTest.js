@@ -65,6 +65,16 @@ describe('The rdf transformer', () => {
       }).should.throw('missing "@context" key in context');
     });
 
+    it('throws on a missing @subject keyword', () => {
+      const context = {
+        '@context': { '@base': 'http://nothing' }
+      };
+
+      (() => {
+        transformer.checkContext(context);
+      }).should.throw('There is no "@subject" key in the context');
+    });
+
     it('throws on a missing @base keyword', () => {
       const context = {
         '@subject': 'column1',
@@ -79,14 +89,19 @@ describe('The rdf transformer', () => {
       }).should.throw('There is no "@base" URL key in "@context"');
     });
 
-    it('throws on a missing @subject keyword', () => {
+    it('throws on a missing @type keyword', () => {
       const context = {
-        '@context': { '@base': 'http://nothing' }
+        '@subject': 'column1',
+        '@context': {
+          '@base': 'dummy',
+          column1: 'http://column1.org/',
+          column2: 'http://column2.org/'
+        }
       };
 
       (() => {
         transformer.checkContext(context);
-      }).should.throw('There is no "@subject" key in the context');
+      }).should.throw('There is no "@type" key in the context');
     });
 
     it('accepts a full context', () => {
@@ -106,7 +121,84 @@ describe('The rdf transformer', () => {
     });
   });
 
+  describe('transform a single row', () => {
+    it('catches errors', () => {
+      const context = {
+        '@preprocessors': [{
+          pluginName: 'faultyPlugin'
+        }],
+        '@subject': 'flip',
+        '@type': 'http://test/flipsum',
+        '@context': {
+          '@base': 'http://testme/',
+          flip: 'http://flip.org/'
+        }
+      };
+
+      return transformer.transformRow({flip: 'flop'}, context, 1, 'n-quads', {
+        faultyPlugin: () => Promise.reject(new Error('I am faulty'))
+      }).should.be.rejectedWith(Error, 'oiwpeurpoi');
+    });
+  });
+
   describe('the transformer', () => {
+    it('rejects empty data that should provide an rdf subject', () => {
+      const testData = [
+        { column1: 'data1', column2: 'data2' },
+        { column2: 'data4' }
+      ];
+      const context = {
+        '@subject': 'column1',
+        '@type': 'http://test/testobject',
+        '@context': {
+          '@base': 'http://testme/',
+          column1: 'http://column1.org/',
+          column2: 'http://column2.org/'
+        }
+      };
+
+      return transformer.transform(testData, context, 'n-quads')
+        .should.be.rejectedWith(Error, 'There is no column column1 in the table');
+    });
+
+    it('rejects null data that should provide an rdf subject', () => {
+      const testData = [
+        { column1: 'data1', column2: 'data2' },
+        { column1: null, column2: 'data4' }
+      ];
+      const context = {
+        '@subject': 'column1',
+        '@type': 'http://test/testobject',
+        '@context': {
+          '@base': 'http://testme/',
+          column1: 'http://column1.org/',
+          column2: 'http://column2.org/'
+        }
+      };
+
+      return transformer.transform(testData, context, 'n-quads')
+        .should.be.rejectedWith(Error, 'Unable to create rdf subject from null value');
+    });
+
+    it('rejects literal \'null\' data that should provide an rdf subject', () => {
+      const testData = [
+        { column1: 'data1', column2: 'data2' },
+        { column1: 'NULL', column2: 'data4' }
+      ];
+      const context = {
+        '@subject': 'column1',
+        '@type': 'http://test/testobject',
+        '@context': {
+          '@base': 'http://testme/',
+          column1: 'http://column1.org/',
+          column2: 'http://column2.org/'
+        }
+      };
+
+      return transformer.transform(testData, context, 'n-quads')
+        .should.be.rejectedWith(Error, 'Unable to create rdf subject from null value');
+    });
+
     it('transforms the test data', () => {
       const testData = [
         { column1: 'data1', column2: 'data2' },
@@ -133,6 +225,25 @@ describe('The rdf transformer', () => {
         ));
     });
 
+    it('rejects an unknown serialization format', () => {
+      const testData = [
+        { column1: 'data1', column2: 'data2' },
+        { column1: 'data3', column2: 'data4' }
+      ];
+      const context = {
+        '@subject': 'column1',
+        '@type': 'http://test/testobject',
+        '@context': {
+          '@base': 'http://testme/',
+          column1: 'http://column1.org/',
+          column2: 'http://column2.org/'
+        }
+      };
+
+      return transformer.transform(testData, context, 'dummy')
+        .should.be.rejectedWith(Error, 'unknown serialization format \'dummy\'');
+    });
+
     it('serializes json-ld', () => {
       const testData = [
         { column1: 'data1', column2: 'data2' },
@@ -149,6 +260,31 @@ describe('The rdf transformer', () => {
       };
 
       return transformer.transform(testData, context, 'json-ld')
+        .then(rdf => rdf.join(',\n').should.deep.equal('{"column1":"data1","column2":"data2",' +
+          '"@context":{"@base":"http://testme/","column1":"http://column1.org/","column2":"http://column2.org/"},' +
+          '"@type":"http://test/testobject","@id":"data1"},\n' +
+          '{"column1":"data3","column2":"data4",' +
+          '"@context":{"@base":"http://testme/","column1":"http://column1.org/","column2":"http://column2.org/"},' +
+          '"@type":"http://test/testobject","@id":"data3"}'
+        ));
+    });
+
+    it('serializes jsonld', () => {
+      const testData = [
+        { column1: 'data1', column2: 'data2' },
+        { column1: 'data3', column2: 'data4' }
+      ];
+      const context = {
+        '@subject': 'column1',
+        '@type': 'http://test/testobject',
+        '@context': {
+          '@base': 'http://testme/',
+          column1: 'http://column1.org/',
+          column2: 'http://column2.org/'
+        }
+      };
+
+      return transformer.transform(testData, context, 'jsonld')
         .then(rdf => rdf.join(',\n').should.deep.equal('{"column1":"data1","column2":"data2",' +
           '"@context":{"@base":"http://testme/","column1":"http://column1.org/","column2":"http://column2.org/"},' +
           '"@type":"http://test/testobject","@id":"data1"},\n' +

@@ -45,8 +45,13 @@ describe('The schema analyzer', () => {
       }));
   });
 
+  it('rejects hashing of a non-existing file', () => {
+    return analyzer.createSchemaHash('nonexist')
+      .should.be.rejectedWith(Error, 'ENOENT: no such file or directory, open \'nonexist\'');
+  });
+
   it('summarizes the schemas of a particular folder and its subfolders', () => {
-    return analyzer.analyzeFolderRecurse('test/mockups/subfoldertest/', '.csv')
+    return analyzer.analyzeFolderRecursive('test/mockups/subfoldertest/', '.csv')
       .then(summary => {
         return summary.sort().should.deep.equal([
           {
@@ -62,7 +67,7 @@ describe('The schema analyzer', () => {
   });
 
   it('creates identical schemas for two files, one file missing one value', () => {
-    return analyzer.analyzeFolderRecurse('test/mockups/sameSchemaTest', '.csv')
+    return analyzer.analyzeFolderRecursive('test/mockups/sameSchemaTest', '.csv')
       .then(result => result.sort().should.deep.equal([
         {
           files: [

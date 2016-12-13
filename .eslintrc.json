@@ -9,6 +9,7 @@
     "arrow-body-style": 0,
     "comma-dangle": 0,
     "prefer-template": 0,
-    "max-len": [2, {"code": 150, "tabWidth": 2, "ignoreUrls": true}]
+    "max-len": [2, {"code": 150, "tabWidth": 2, "ignoreUrls": true}],
+    "strict": 0
   }
 }
