@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+/**
+ * Created by reinvantveer on 12/16/16.
+ */
+
+'use strict';
+
+const argv = require('yargs')
+  .usage('Usage: $0 -i [csv path] -e [extension with dot]')
+  .demand(['i', 'e'])
+  .argv;
