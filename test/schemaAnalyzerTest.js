@@ -10,72 +10,208 @@ const chai = require('chai');
 chai.should();
 
 describe('The schema analyzer', () => {
-  it('generates a json schema for the csv', () => {
-    return analyzer.csv2jsonSchema('test/mockups/test.csv')
-      .then(schema => schema.should.deep.equal({
-        $schema: 'http://json-schema.org/draft-04/schema#',
-        items: {
-          properties: {
-            column1: {
-              type: 'string'
+  describe('schema generator', () => {
+    it('generates a json schema for the csv', () => {
+      return analyzer.csv2jsonSchema('test/mockups/test.csv')
+        .then(schema => schema.should.deep.equal({
+          $schema: 'http://json-schema.org/draft-04/schema#',
+          items: {
+            properties: {
+              column1: {
+                type: 'string'
+              },
+              column2: {
+                type: 'string'
+              }
             },
-            column2: {
-              type: 'string'
-            }
+            type: 'object'
           },
-          type: 'object'
-        },
-        type: 'array'
-      }));
-  });
+          type: 'array'
+        }));
+    });
 
-  it('generates a hash of the schema', () => {
-    return analyzer.createSchemaHash('test/mockups/test.csv')
-      .then(hash => hash.should.deep.equal({
-        files: ['test/mockups/test.csv'],
-        hash: 'ece9e8a91157824de7c5a9527c322ea9'
-      }));
-  });
-
-  it('generates a hash of an identical file', () => {
-    return analyzer.createSchemaHash('test/mockups/subfoldertest/subfolder/test2.csv')
-      .then(hash => hash.should.deep.equal({
-        files: ['test/mockups/subfoldertest/subfolder/test2.csv'],
-        hash: 'ece9e8a91157824de7c5a9527c322ea9'
-      }));
-  });
-
-  it('rejects hashing of a non-existing file', () => {
-    return analyzer.createSchemaHash('nonexist')
-      .should.be.rejectedWith(Error, 'ENOENT: no such file or directory, open \'nonexist\'');
-  });
-
-  it('summarizes the schemas of a particular folder and its subfolders', () => {
-    return analyzer.analyzeFolderRecursive('test/mockups/subfoldertest/', '.csv')
-      .then(summary => {
-        return summary.sort().should.deep.equal([
+    it('creates identical schemas for two files, one file missing one row value', () => {
+      return analyzer.analyzeFolderRecursive('test/mockups/sameSchemaTest', '.csv')
+        .then(result => result.sort().should.deep.equal([
           {
-            hash: 'a066630197a8749359b068a90ee80fa3',
-            files: ['test/mockups/subfoldertest/rd.csv']
-          },
-          {
+            files: [
+              'test/mockups/sameSchemaTest/test.csv',
+              'test/mockups/sameSchemaTest/test2.csv'
+            ],
             hash: 'ece9e8a91157824de7c5a9527c322ea9',
-            files: ['test/mockups/subfoldertest/test.csv', 'test/mockups/subfoldertest/subfolder/test2.csv']
+            closestRelatives: [],
+            occurrences: 2,
+            schema: {
+              $schema: 'http://json-schema.org/draft-04/schema#',
+              type: 'array',
+              items: {
+                type: 'object',
+                properties: {
+                  column1: { type: 'string' },
+                  column2: { type: 'string' }
+                }
+              }
+            }
           }
-        ]);
-      });
+        ]));
+    });
   });
 
-  it('creates identical schemas for two files, one file missing one value', () => {
-    return analyzer.analyzeFolderRecursive('test/mockups/sameSchemaTest', '.csv')
-      .then(result => result.sort().should.deep.equal([
-        {
-          files: [
-            'test/mockups/sameSchemaTest/test.csv',
-            'test/mockups/sameSchemaTest/test2.csv'
-          ],
-          hash: 'ece9e8a91157824de7c5a9527c322ea9'
-        }
-      ]));
+  describe('file hashing', () => {
+    it('generates a hash of the schema', () => {
+      return analyzer.createSchemaHash('test/mockups/test.csv')
+        .then(hash => hash.should.deep.equal({
+          files: ['test/mockups/test.csv'],
+          hash: 'ece9e8a91157824de7c5a9527c322ea9',
+          schema: {
+            $schema: 'http://json-schema.org/draft-04/schema#',
+            type: 'array',
+            items: {
+              type: 'object',
+              properties: {
+                column1: { type: 'string' },
+                column2: { type: 'string' }
+              }
+            }
+          }
+        }));
+    });
+
+    it('generates a hash of an identical file', () => {
+      return analyzer.createSchemaHash('test/mockups/subfoldertest/subfolder/test2.csv')
+        .then(hash => hash.should.deep.equal({
+          files: ['test/mockups/subfoldertest/subfolder/test2.csv'],
+          hash: 'ece9e8a91157824de7c5a9527c322ea9',
+          schema: {
+            $schema: 'http://json-schema.org/draft-04/schema#',
+            type: 'array',
+            items: {
+              type: 'object',
+              properties: {
+                column1: { type: 'string' },
+                column2: { type: 'string' }
+              }
+            }
+          }
+        }));
+    });
+
+    it('rejects hashing of a non-existing file', () => {
+      return analyzer.createSchemaHash('nonexist')
+        .should.be.rejectedWith(Error, 'ENOENT: no such file or directory, open \'nonexist\'');
+    });
+  });
+
+  describe('schema analysis', () => {
+    it('summarizes the schemas of a particular folder and its subfolders', () => {
+      return analyzer.analyzeFolderRecursive('test/mockups/subfoldertest/', '.csv')
+        .then(summary => {
+          return summary.sort().should.deep.equal([
+            {
+              hash: 'ef4e1166fc061ac5c3ce0ee63ec4f518',
+              files: ['test/mockups/subfoldertest/rd.csv'],
+              closestRelatives: [{
+                schemaHash: 'ece9e8a91157824de7c5a9527c322ea9',
+                patch: [
+                  { op: 'remove', path: '/items/properties/column2' },
+                  { op: 'remove', path: '/items/properties/column1' },
+                  { op: 'add', path: '/items/properties/bang', value: { type: 'string' } }
+                ]
+              }],
+              occurrences: 1,
+              schema: {
+                $schema: 'http://json-schema.org/draft-04/schema#',
+                type: 'array',
+                items: {
+                  type: 'object',
+                  properties: {
+                    bang: { type: 'string' }
+                  }
+                }
+              }
+            },
+            {
+              hash: 'ece9e8a91157824de7c5a9527c322ea9',
+              files: ['test/mockups/subfoldertest/test.csv', 'test/mockups/subfoldertest/subfolder/test2.csv'],
+              closestRelatives: [{
+                schemaHash: 'ef4e1166fc061ac5c3ce0ee63ec4f518',
+                patch: [
+                  { op: 'remove', path: '/items/properties/bang' },
+                  { op: 'add', path: '/items/properties/column1', value: { type: 'string' } },
+                  { op: 'add', path: '/items/properties/column2', value: { type: 'string' } }
+                ],
+              }],
+              occurrences: 2,
+              schema: {
+                $schema: 'http://json-schema.org/draft-04/schema#',
+                type: 'array',
+                items: {
+                  type: 'object',
+                  properties: {
+                    column1: { type: 'string' },
+                    column2: { type: 'string' }
+                  }
+                }
+              }
+            }
+          ]);
+        });
+    });
+
+    it('calculates the nearest relative for three schemas', () => {
+      return analyzer.analyzeFolderRecursive('test/mockups/subfoldertest/', '.csv')
+        .then(dedupedMap => analyzer.relate(dedupedMap))
+        .then(relatedMap => {
+          return relatedMap.should.deep.equal([
+            {
+              hash: 'ef4e1166fc061ac5c3ce0ee63ec4f518',
+              files: ['test/mockups/subfoldertest/rd.csv'],
+              closestRelatives: [{
+                schemaHash: 'ece9e8a91157824de7c5a9527c322ea9',
+                patch: [
+                  { op: 'remove', path: '/items/properties/column2' },
+                  { op: 'remove', path: '/items/properties/column1' },
+                  { op: 'add', path: '/items/properties/bang', value: { type: 'string' } }
+                ]
+              }],
+              occurrences: 1,
+              schema: {
+                $schema: 'http://json-schema.org/draft-04/schema#',
+                type: 'array',
+                items: {
+                  type: 'object',
+                  properties: {
+                    bang: { type: 'string' }
+                  }
+                }
+              }
+            },
+            {
+              hash: 'ece9e8a91157824de7c5a9527c322ea9',
+              files: ['test/mockups/subfoldertest/test.csv', 'test/mockups/subfoldertest/subfolder/test2.csv'],
+              closestRelatives: [{
+                schemaHash: 'ef4e1166fc061ac5c3ce0ee63ec4f518',
+                patch: [
+                  { op: 'remove', path: '/items/properties/bang' },
+                  { op: 'add', path: '/items/properties/column1', value: { type: 'string' } },
+                  { op: 'add', path: '/items/properties/column2', value: { type: 'string' } }
+                ],
+              }],
+              occurrences: 2,
+              schema: {
+                $schema: 'http://json-schema.org/draft-04/schema#',
+                type: 'array',
+                items: {
+                  type: 'object',
+                  properties: {
+                    column1: { type: 'string' },
+                    column2: { type: 'string' }
+                  }
+                }
+              }
+            }
+          ]);
+        });
+    });
   });
 });
