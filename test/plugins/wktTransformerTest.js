@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 const chai = require('chai');
-const chaiAsPromised = require("chai-as-promised");
+const chaiAsPromised = require('chai-as-promised');
 
 chai.use(chaiAsPromised);
 chai.should();
@@ -78,7 +78,6 @@ describe('The WKT transformer plugin', () => {
           '@type': 'http://wkttesttype/',
           '@id': 'dummy'
         })));
-
     });
   });
 });

@@ -39,3 +39,4 @@ There are examples in the repository for
 - [ ] Plugin for generic WKT reprojection from/to any CRS 
 - [ ] Plugin for prefixing values to URIs
 - [ ] Plugin for nesting keys and objects
+- [ ] Support for csv delimiter detection
