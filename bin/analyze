@@ -5,13 +5,36 @@
 
 'use strict';
 
+const fs = require('fs');
+const schemaAnalyzer = require('../lib/schemaAnalyzer');
+
 const argv = require('yargs')
-  .usage('Usage: $0 -i [csv path] -e [extension with dot]')
-  .demand(['i', 'e'])
+  .usage('Usage: $0 -i [csv path] -o [output json file] -e [extension with dot]')
+  .describe('i', 'Input path to recursively search for CSVs')
+  .describe('o', 'Output file path for the analyzed CSV schemas')
+  .describe('e', 'File extension to search for. Defaults to "csv"')
+  .default('e', 'csv')
+  .demand(['i', 'o'])
   .argv;
 
-const schemaAnalyzer = require('../lib/schemaAnalyzer.js');
-
 schemaAnalyzer.analyzeFolderRecursive(argv.i, argv.e)
-  .then(console.log)
+  .then(hashMap => {
+    const statsMap = hashMap.sort((a, b) => {
+      if (a.files.length < b.files.length) return -1;
+      if (a.files.length > b.files.length) return 1;
+      return 0;
+    }).reverse(); // Do a descending order
+
+    console.log('Stats:');
+
+    console.log(statsMap.map(stat => {
+      return {
+        hash: stat.hash,
+        occurrences: stat.occurrences
+      };
+    }));
+
+    console.log(`Writing map to ${argv.o}`);
+    fs.writeFileSync(argv.o, JSON.stringify(statsMap, null, 2));
+  })
   .catch(console.error);
