@@ -25,14 +25,17 @@ schemaAnalyzer.analyzeFolderRecursive(argv.i, argv.e)
       return 0;
     }).reverse(); // Do a descending order
 
-    console.log('Stats:');
-
+    console.log(`Stats: ${statsMap.length} schemas`);
     console.log(statsMap.map(stat => {
       return {
         hash: stat.hash,
         occurrences: stat.occurrences
       };
     }));
+
+    console.log('Graph:');
+    schemaAnalyzer.toXDotGraph(statsMap)
+      .then(console.log);
 
     console.log(`Writing map to ${argv.o}`);
     fs.writeFileSync(argv.o, JSON.stringify(statsMap, null, 2));
