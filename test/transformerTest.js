@@ -122,10 +122,27 @@ describe('The rdf transformer', () => {
   });
 
   describe('transform a single row', () => {
-    it('catches errors', () => {
+    it('catches errors on empty input', () => {
+      const context = {
+        '@preprocessors': [{ pluginName: 'faultyPlugin' }],
+        '@subject': 'flip',
+        '@type': 'http://test/flipsum',
+        '@context': {
+          '@base': 'http://testme/',
+          flip: 'http://flip.org/'
+        }
+      };
+
+      return transformer.transformRow({ flip: 'flop' }, context, 1, 'n-quads', {
+        faultyPlugin: () => Promise.resolve()
+      }).should.be.rejectedWith(Error, 'Unable to process empty input');
+    });
+
+    it('catches errors on faulty plugins', () => {
       const context = {
         '@preprocessors': [{
-          pluginName: 'faultyPlugin'
+          pluginName: 'faultyPlugin',
+          inputFields: ['flip']
         }],
         '@subject': 'flip',
         '@type': 'http://test/flipsum',
@@ -135,9 +152,13 @@ describe('The rdf transformer', () => {
         }
       };
 
-      return transformer.transformRow({flip: 'flop'}, context, 1, 'n-quads', {
-        faultyPlugin: () => Promise.reject(new Error('I am faulty'))
-      }).should.be.rejectedWith(Error, 'oiwpeurpoi');
+      const faultyPlugin = (inputfields) => {
+        return Promise.reject(new Error('I am faulty'));
+      };
+
+      return transformer.transformRow({ flip: 'flop' }, context, 1, 'n-quads', {
+        faultyPlugin
+      }).should.be.rejectedWith(Error, 'I am faulty');
     });
   });
 
