@@ -6,6 +6,6 @@
 'use strict';
 
 const argv = require('yargs')
-  .usage('Usage: $0 -i [csv path] -e [extension with dot]')
+  .usage('Usage: $0 -i [csv path] -e [file extension]')
   .demand(['i', 'e'])
   .argv;

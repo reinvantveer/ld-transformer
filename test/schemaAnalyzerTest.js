@@ -173,7 +173,7 @@ describe('The schema analyzer', () => {
         }));
     });
 
-    it('creates a d3 graph data set', () => {
+    it('creates a dot graph data set', () => {
       return analyzer.analyzeFolderRecursive('test/mockups/subfoldertest/', 'csv')
         .then(summary => analyzer.toXDotGraph(summary))
         .then(graph => graph.should.deep.equal(
@@ -182,6 +182,123 @@ describe('The schema analyzer', () => {
           '\t"ece9e8a91157824de7c5a9527c322ea9" -> "ef4e1166fc061ac5c3ce0ee63ec4f518";\n' +
           '}'
         ));
+    });
+
+    describe('schema diff sorter', () => {
+      it('prefers few diffs over many diffs', () => {
+        const diffA = {
+          patch: [
+            { op: 'remove', path: '/items/properties/bang' },
+            { op: 'add', path: '/items/properties/column1', value: { type: 'string' } },
+            { op: 'add', path: '/items/properties/column2', value: { type: 'string' } }
+          ]
+        };
+
+        const diffB = {
+          patch: [
+            { op: 'remove', path: '/items/properties/bang' },
+            { op: 'add', path: '/items/properties/column1', value: { type: 'string' } }
+          ]
+        };
+
+        return analyzer.schemaDiffSorter(diffA, diffB)
+          .should.equal(1);
+      });
+
+      it('prefers few diffs over many diffs', () => {
+        const diffA = {
+          patch: [
+            { op: 'remove', path: '/items/properties/bang' },
+            { op: 'add', path: '/items/properties/column1', value: { type: 'string' } }
+          ]
+        };
+
+        const diffB = {
+          patch: [
+            { op: 'remove', path: '/items/properties/bang' },
+            { op: 'add', path: '/items/properties/column1', value: { type: 'string' } },
+            { op: 'add', path: '/items/properties/column2', value: { type: 'string' } }
+          ]
+        };
+
+        return analyzer.schemaDiffSorter(diffA, diffB)
+          .should.equal(-1);
+      });
+
+      it('prefers add diffs over replace diffs', () => {
+        const diffA = {
+          patch: [
+            { op: 'add', path: '/items/properties/column1', value: { type: 'string' } },
+            { op: 'add', path: '/items/properties/column2', value: { type: 'string' } }
+          ]
+        };
+
+        const diffB = {
+          patch: [
+            { op: 'remove', path: '/items/properties/bang' },
+            { op: 'add', path: '/items/properties/column1', value: { type: 'string' } }
+          ]
+        };
+
+        return analyzer.schemaDiffSorter(diffA, diffB)
+          .should.equal(-1);
+      });
+
+      it('prefers add diffs over replace diffs', () => {
+        const diffA = {
+          patch: [
+            { op: 'remove', path: '/items/properties/bang' },
+            { op: 'add', path: '/items/properties/column1', value: { type: 'string' } }
+          ]
+        };
+
+        const diffB = {
+          patch: [
+            { op: 'add', path: '/items/properties/column1', value: { type: 'string' } },
+            { op: 'add', path: '/items/properties/column2', value: { type: 'string' } }
+          ]
+        };
+
+        return analyzer.schemaDiffSorter(diffA, diffB)
+          .should.equal(1);
+      });
+
+      it('prefers an remove and add diff over just a remove diff', () => {
+        const diffA = {
+          patch: [
+            { op: 'remove', path: '/items/properties/bang' },
+          ]
+        };
+
+        const diffB = {
+          patch: [
+            { op: 'remove', path: '/items/properties/column1', value: { type: 'string' } },
+            { op: 'add', path: '/items/properties/column2', value: { type: 'string' } }
+          ]
+        };
+
+        return analyzer.schemaDiffSorter(diffA, diffB)
+          .should.equal(1);
+      });
+
+      it('prefers an remove and add diff over just a remove diff', () => {
+        const diffA = {
+          patch: [
+            { op: 'remove', path: '/items/properties/column1', value: { type: 'string' } },
+            { op: 'remove', path: '/items/properties/column2', value: { type: 'string' } },
+            { op: 'add', path: '/items/properties/column2', value: { type: 'string' } }
+          ]
+        };
+
+        const diffB = {
+          patch: [
+            { op: 'remove', path: '/items/properties/bang' },
+          ]
+        };
+
+        return analyzer.schemaDiffSorter(diffA, diffB)
+          .should.equal(-1);
+      });
     });
   });
 });
