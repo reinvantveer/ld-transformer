@@ -22,18 +22,21 @@ describe('The rdf transformer', () => {
     });
 
     it('rejects a plugin that is no thenable', () => {
-      (() => {
-        transformer.loadPlugins(`${__dirname}/mockups/noThenablePluginTest/`);
-      }).should.throw(Error, `Plugin ${__dirname}/mockups/noThenablePluginTest//faultyPlugin.js does not return a Promise.`);
+      return (() => transformer.loadPlugins(`${__dirname}/mockups/noThenablePluginTest/`))
+        .should.throw(Error, `Plugin ${__dirname}/mockups/noThenablePluginTest//faultyPlugin.js does not return a valid Promise.`);
+    });
+
+    it('catches errors on a plugin that throws errors', () => {
+      return (() => transformer.loadPlugins(`${__dirname}/mockups/thenablePluginErrorTest/`))
+        .should.throw(Error, `Plugin ${__dirname}/mockups/thenablePluginErrorTest//faultyPlugin.js does not return a valid Promise.`);
     });
   });
 
   describe('context checker', () => {
     it('throws on a missing context key', () => {
       const testData = [{ column1: 'data1', column2: 'data2' }];
-      (() => {
-        transformer.checkKeys(testData, {});
-      }).should.throw('Add {\n  "column1": "prefix:column1",\n  "column2": "prefix:column2"\n} to context file.');
+      return (() => transformer.checkKeys(testData, {}))
+        .should.throw('Add {\n  "column1": "prefix:column1",\n  "column2": "prefix:column2"\n} to context file.');
     });
 
     it('accepts on described context keys', () => {
@@ -50,19 +53,15 @@ describe('The rdf transformer', () => {
     });
 
     it('throws on an empty context', () => {
-      (() => {
-        transformer.checkContext();
-      }).should.throw('Please supply a non-empty context');
+      return (() => transformer.checkContext())
+        .should.throw('Please supply a non-empty context');
     });
 
     it('throws on a missing @context keyword', () => {
-      const context = {
-        '@subject': 'column1'
-      };
+      const context = { '@subject': 'column1' };
 
-      (() => {
-        transformer.checkContext(context);
-      }).should.throw('missing "@context" key in context');
+      return (() => transformer.checkContext(context))
+        .should.throw('missing "@context" key in context');
     });
 
     it('throws on a missing @subject keyword', () => {
@@ -70,7 +69,7 @@ describe('The rdf transformer', () => {
         '@context': { '@base': 'http://nothing' }
       };
 
-      (() => {
+      return (() => {
         transformer.checkContext(context);
       }).should.throw('There is no "@subject" key in the context');
     });

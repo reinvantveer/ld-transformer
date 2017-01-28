@@ -8,6 +8,12 @@
 const fs = require('fs');
 const schemaAnalyzer = require('../lib/schemaAnalyzer');
 
+// Mongodb setup
+const MongoClient = require('mongodb').MongoClient;
+
+const dbUrl = 'mongodb://localhost:27017/edna-ld';
+let mongodb;
+
 const argv = require('yargs')
   .usage('Usage: $0 -i [csv path] -o [output json file] -e [extension with dot]')
   .describe('i', 'Input path to recursively search for CSVs')
@@ -17,7 +23,11 @@ const argv = require('yargs')
   .demand(['i', 'o'])
   .argv;
 
-schemaAnalyzer.analyzeFolderRecursive(argv.i, argv.e)
+MongoClient.connect(dbUrl)
+  .then(db => {
+    mongodb = db;
+    return schemaAnalyzer.analyzeFolderRecursive(argv.i, argv.e, db)
+  })
   .then(hashMap => {
     const statsMap = hashMap.sort((a, b) => {
       if (a.files.length < b.files.length) return -1;
@@ -25,19 +35,8 @@ schemaAnalyzer.analyzeFolderRecursive(argv.i, argv.e)
       return 0;
     }).reverse(); // Do a descending order
 
-    console.log(`Stats: ${statsMap.length} schemas`);
-    console.log(statsMap.map(stat => {
-      return {
-        hash: stat.hash,
-        occurrences: stat.occurrences
-      };
-    }));
-
-    console.log('Graph:');
-    schemaAnalyzer.toXDotGraph(statsMap)
-      .then(console.log);
-
     console.log(`Writing map to ${argv.o}`);
     fs.writeFileSync(argv.o, JSON.stringify(statsMap, null, 2));
+    mongodb.close();
   })
   .catch(console.error);
