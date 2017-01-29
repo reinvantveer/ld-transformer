@@ -37,6 +37,8 @@ MongoClient.connect(dbUrl)
 
     console.log(`Writing map to ${argv.o}`);
     fs.writeFileSync(argv.o, JSON.stringify(statsMap, null, 2));
-    mongodb.close();
   })
-  .catch(console.error);
+  .catch(err => {
+    mongodb.close();
+    console.error(err);
+  });
